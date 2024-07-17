@@ -121,7 +121,7 @@
 //   `${celsius} degree celsius is equal to ${fahrenheit} degree fahrenheit.`
 // );
 
-//Q.8  Work With Constants
+//Q.8  Work With Constants        *******************************************
 
 // const a = 5;
 // console.log(a);
@@ -140,7 +140,7 @@
 
 // console.log(arr);
 
-//Q.9  JavaScript Program to Write to Console
+//Q.9  JavaScript Program to Write to Console           *******************************************
 
 //program to write to console
 
