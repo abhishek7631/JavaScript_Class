@@ -1,3 +1,109 @@
+//**********************     CLASS PRACTICE QUESTION    *****************************
+
+// function name(name, age) {                   ********************
+//   console.log(`${name}'s ${age}`);
+// }
+
+// name("abhishek", 23);
+
+// let age = prompt("enter your age");        ********************
+
+// if (age >= 20) {
+//   console.log("you are adult so you can vote");
+// } else {
+//   console.log("you are miner , we can't allow for voting");
+// }
+
+// let age = 20;                         ********************
+// let result = age >= 18 ? "you can vote" : "you are miner";
+// console.log(result);
+
+// let marks = 60;                 ********************
+// let result = marks > 35 ? "you pass the exam" : "you fail tyhe exam";
+// console.log(result);
+
+// if (1 == 1) {                     ********************
+//   console.log("true");
+// } else {
+//   console.log("false");
+// }
+
+// let marks = parseInt(prompt("enter your marks"));             ********************
+
+// if (marks > 40) {
+//   if (marks > 80) {
+//     console.log("distinction");
+//   } else {
+//     console.log("average");
+//   }
+// } else {
+//   console.log("you fail the exam");
+// }
+
+// function reuslt(marks) {                   ********************
+//   if (marks > 40) {
+//     if (marks > 80) {
+//       console.log("distinction");
+//     } else {
+//       console.log("average");
+//     }
+//   } else {
+//     console.log("you fail the exam");
+//   }
+// }
+
+// reuslt(75);
+
+// let day = prompt("enter your day");                  ********************
+
+// switch (day) {
+//   case "monday":
+//     console.log("this is monady");
+//     break;
+//   case "tuesday":
+//     console.log("this is tuesday");
+//     break;
+//   case "wednesday":
+//     console.log("this is wednesday");
+//     break;
+//   case "thursday":
+//     console.log("this is thursday");
+//     break;
+//   case "friday":
+//     console.log("this is friday");
+//     break;
+//   case "saturday":
+//     console.log("this is saturady");
+//     break;
+//   case "sunday":
+//     console.log("this is sunday");
+//     break;
+// }
+
+// let score = parseInt(prompt("Enter your marks"));                   ********************
+
+// switch (true) {
+//   case score <= 100 && score >= 90:
+//     console.log("Grade A");
+//     break;
+//   case score <= 89 && score >= 80:
+//     console.log("Grade B");
+//     break;
+//   case score <= 79 && score >= 70:
+//     console.log("Grade C");
+//     break;
+//   case score <= 69 && score >= 60:
+//     console.log("Grade D");
+//     break;
+//   case score <= 59 && score >= 0:
+//     console.log("Grade F");
+//     break;
+//   default:
+//     console.log("Not valid");
+// }
+
+//**********************     CLASS PRACTICE QUESTION    *****************************
+
 // let score = prompt("enter the marks: ");
 
 // if (score>=90) {
