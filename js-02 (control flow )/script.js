@@ -104,6 +104,8 @@
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
+//****************************************  SELF PRACTICE QUESTION   *********************/
+
 // let score = prompt("enter the marks: ");
 
 // if (score>=90) {
