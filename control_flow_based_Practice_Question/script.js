@@ -87,9 +87,64 @@
 
 //Using Math.max()  ***********
 
-let num1 = prompt("enter your first number");
-let num2 = prompt("enter your second number");
-let num3 = prompt("enter your third number");
+// let num1 = prompt("enter your first number");
+// let num2 = prompt("enter your second number");
+// let num3 = prompt("enter your third number");
 
-let largest_number = Math.max(num1, num2, num3);
-console.log(`${largest_number} is a largest number`);
+// let largest_number = Math.max(num1, num2, num3);
+// console.log(`${largest_number} is a largest number`);
+
+//Q.5   JavaScript Program to Check Prime Number.              *******************************
+
+// let num = prompt("enter your number");
+
+// if (num == 1) {
+//   console.log(`${num} is neither prime nor composite number`);
+// } else if (num < 0) {
+//   console.log(`${num} is not a prime number`);
+// } else {
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       var res = `${num} is not a prime number`;
+//       break;
+//     } else {
+//       var res = `${num} is prime number`;
+//     }
+//   }
+//   console.log(res);
+// }
+
+//Q.6   JavaScript Program to Print All Prime Numbers in an Interval    *************************************
+
+//Q.  make calculator in javascript using switch case.
+
+// let num1 = parseInt(prompt("enter your first number: "));
+
+// console.log(`this is your value1: ${num1}`);
+// let oper = prompt("choose operator +,-,*,/,%: ");
+// console.log(`this is your operator: ${oper}`);
+// let num2 = parseInt(prompt("enter your seconfd number: "));
+// console.log(`this is your value2: ${num2}`);
+
+// switch (oper) {
+//   case "+":
+//     result = num1 + num2;
+//     console.log(`${num1} + ${num2} = ${result}`);
+//     break;
+//   case "-":
+//     result = num1 - num2;
+//     console.log(`${num1} - ${num2} = ${result}`);
+//     break;
+//   case "*":
+//     result = num1 * num2;
+//     console.log(`${num1} * ${num2} = ${result}`);
+//     break;
+//   case "/":
+//     result = num1 / num2;
+//     console.log(`${num1} / ${num2} = ${result}`);
+//     break;
+//   case "%":
+//     result = num1 % num2;
+//     console.log(`${num1} % ${num2} = ${result}`);
+//     break;
+// }
