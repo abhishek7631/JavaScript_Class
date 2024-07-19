@@ -118,33 +118,33 @@
 
 //Q.  make calculator in javascript using switch case.
 
-// let num1 = parseInt(prompt("enter your first number: "));
+let num1 = parseInt(prompt("enter your first number: "));
 
-// console.log(`this is your value1: ${num1}`);
-// let oper = prompt("choose operator +,-,*,/,%: ");
-// console.log(`this is your operator: ${oper}`);
-// let num2 = parseInt(prompt("enter your seconfd number: "));
-// console.log(`this is your value2: ${num2}`);
+console.log(`this is your value1: ${num1}`);
+let oper = prompt("choose operator +,-,*,/,%: ");
+console.log(`this is your operator: ${oper}`);
+let num2 = parseInt(prompt("enter your seconfd number: "));
+console.log(`this is your value2: ${num2}`);
 
-// switch (oper) {
-//   case "+":
-//     result = num1 + num2;
-//     console.log(`${num1} + ${num2} = ${result}`);
-//     break;
-//   case "-":
-//     result = num1 - num2;
-//     console.log(`${num1} - ${num2} = ${result}`);
-//     break;
-//   case "*":
-//     result = num1 * num2;
-//     console.log(`${num1} * ${num2} = ${result}`);
-//     break;
-//   case "/":
-//     result = num1 / num2;
-//     console.log(`${num1} / ${num2} = ${result}`);
-//     break;
-//   case "%":
-//     result = num1 % num2;
-//     console.log(`${num1} % ${num2} = ${result}`);
-//     break;
-// }
+switch (oper) {
+  case "+":
+    result = num1 + num2;
+    console.log(`sum is: ${num1} + ${num2} = ${result}`);
+    break;
+  case "-":
+    result = num1 - num2;
+    console.log(` sub is: ${num1} - ${num2} = ${result}`);
+    break;
+  case "*":
+    result = num1 * num2;
+    console.log(`mul: ${num1} * ${num2} = ${result}`);
+    break;
+  case "/":
+    result = num1 / num2;
+    console.log(`div: ${num1} / ${num2} = ${result}`);
+    break;
+  case "%":
+    result = num1 % num2;
+    console.log(`mod: ${num1} % ${num2} = ${result}`);
+    break;
+}

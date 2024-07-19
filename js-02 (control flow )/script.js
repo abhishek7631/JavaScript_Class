@@ -102,6 +102,51 @@
 //     console.log("Not valid");
 // }
 
+// for (let i = 10; i > 0; i--) {     ****************************
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {   ***********
+//   console.log(i * 2);
+// }
+
+// for (let i = 3; i <= 30; i = i + 3) {   ************
+//   console.log(i);
+// }
+
+// function printTable(num) {           *****************
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(i * num);
+//   }
+// }
+// printTable(6);
+
+// let num = parseInt(prompt("enter your table number"));  **************
+
+// for (let i = num; i <= num * 10; i = i + num) {
+//   console.log(i);
+// }
+
+// printing all the odd numbers  ****************
+
+// for (let i = 1; i <= 20; i = i + 2) {
+//   console.log(i);
+// }
+
+// for (let i = 1; i <= 20; i++) {    ***********************
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
+
+// let i = 1;     ************************
+// while (i <= 20) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
 //****************************************  SELF PRACTICE QUESTION   *********************/
