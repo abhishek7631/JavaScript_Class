@@ -183,6 +183,50 @@
 
 //Q.9   JavaScript Program to Print the Fibonacci Sequence.  ******************************
 
+// let a = 0;
+// let b = 1;
+// console.log(a);
+// console.log(b);
+
+// for (let i = 0; i <= 4; i++) {
+//   let temp = a + b;
+//   a = b;
+//   b = temp;
+//   console.log(temp);
+// }
+
+// let num = prompt("enter your number");   ***************(input from user)
+
+// let a = 0;
+// let b = 1;
+// console.log(a);
+// console.log(b);
+
+// for (let i = 0; i <= num; i++) {
+//   let temp = a + b;
+//   a = b;
+//   b = temp;
+//   console.log(temp);
+// }
+
+// function fibonacci(num) {      ****************(using function)
+//   let a = 0;
+//   let b = 1;
+//   console.log(a);
+//   console.log(b);
+
+//   for (let i = 0; i <= num; i++) {
+//     let temp = a + b;
+//     a = b;
+//     b = temp;
+//     console.log(temp);
+//   }
+// }
+
+// fibonacci(9);
+
+//Q.10  JavaScript Program to Check Armstrong Number.    ***************************
+
 //Q.  make calculator in javascript using switch case.
 
 // let num1 = parseInt(prompt("enter your first number: "));
