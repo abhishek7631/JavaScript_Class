@@ -116,35 +116,102 @@
 
 //Q.6   JavaScript Program to Print All Prime Numbers in an Interval    *************************************
 
+// let startNum = prompt("enter your start number");
+// let endNUm = prompt("enter your end number");
+
+// console.log(`Prime numbers between ${startNum} and ${endNUm} are:`);
+
+// for (let i = startNum; i <= endNUm; i++) {
+//   let isPrime = true;
+
+//   if (i <= 1) {
+//     isPrime = false;
+//   } else {
+//     for (let j = 2; j < i; j++) {
+//       if (i % j === 0) {
+//         isPrime = false;
+//         break;
+//       }
+//     }
+//   }
+
+//   if (isPrime) {
+//     console.log(i);
+//   }
+// }
+
+//Q.7  JavaScript Program to Find the Factorial of a Number    *************************************
+
+// let num = parseInt(prompt("enter your number"));
+
+// if (num < 0) {
+//   console.log("factorial for negative number is does not exist");
+// } else if (num == 0) {
+//   console.log(`the factorial of ${num} is 1`);
+// } else {
+//   let fact = 1;
+//   for (let i = 1; i <= num; i++) {
+//     fact = fact * i;
+//   }
+//   console.log(`factorial of ${num} is: ${fact}`);
+// }
+
+//Q.8   JavaScript Program to Display the Multiplication Table.   *******************************************
+
+// let num = prompt("enter your number");
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i * num);
+// }
+
+//second method                                    ****************
+// let n = parseInt(prompt("enter your number: "));
+
+// for (let i = n; i <= n * 10; i = i + n) {
+//   console.log(i);
+// }
+
+// Multiplication Table Up to a Range
+
+// let n = prompt("enter your number");
+
+// let range = prompt("enter your range between 1 to 10");
+
+// for (let i = 1; i <= range; i++) {
+//   console.log(i * n);
+// }
+
+//Q.9   JavaScript Program to Print the Fibonacci Sequence.  ******************************
+
 //Q.  make calculator in javascript using switch case.
 
-let num1 = parseInt(prompt("enter your first number: "));
+// let num1 = parseInt(prompt("enter your first number: "));
 
-console.log(`this is your value1: ${num1}`);
-let oper = prompt("choose operator +,-,*,/,%: ");
-console.log(`this is your operator: ${oper}`);
-let num2 = parseInt(prompt("enter your seconfd number: "));
-console.log(`this is your value2: ${num2}`);
+// console.log(`this is your value1: ${num1}`);
+// let oper = prompt("choose operator +,-,*,/,%: ");
+// console.log(`this is your operator: ${oper}`);
+// let num2 = parseInt(prompt("enter your seconfd number: "));
+// console.log(`this is your value2: ${num2}`);
 
-switch (oper) {
-  case "+":
-    result = num1 + num2;
-    console.log(`sum is: ${num1} + ${num2} = ${result}`);
-    break;
-  case "-":
-    result = num1 - num2;
-    console.log(` sub is: ${num1} - ${num2} = ${result}`);
-    break;
-  case "*":
-    result = num1 * num2;
-    console.log(`mul: ${num1} * ${num2} = ${result}`);
-    break;
-  case "/":
-    result = num1 / num2;
-    console.log(`div: ${num1} / ${num2} = ${result}`);
-    break;
-  case "%":
-    result = num1 % num2;
-    console.log(`mod: ${num1} % ${num2} = ${result}`);
-    break;
-}
+// switch (oper) {
+//   case "+":
+//     result = num1 + num2;
+//     console.log(`sum is: ${num1} + ${num2} = ${result}`);
+//     break;
+//   case "-":
+//     result = num1 - num2;
+//     console.log(` sub is: ${num1} - ${num2} = ${result}`);
+//     break;
+//   case "*":
+//     result = num1 * num2;
+//     console.log(`mul: ${num1} * ${num2} = ${result}`);
+//     break;
+//   case "/":
+//     result = num1 / num2;
+//     console.log(`div: ${num1} / ${num2} = ${result}`);
+//     break;
+//   case "%":
+//     result = num1 % num2;
+//     console.log(`mod: ${num1} % ${num2} = ${result}`);
+//     break;
+// }
