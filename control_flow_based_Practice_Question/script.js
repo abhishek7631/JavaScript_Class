@@ -227,6 +227,37 @@
 
 //Q.10  JavaScript Program to Check Armstrong Number.    ***************************
 
+// let number = prompt("enter your number");
+// let temp = number;
+// let sum = 0;
+// while (temp > 0) {
+//   let digit = temp % 10;
+//   sum += digit ** 3;
+//   temp = parseInt(temp / 10);
+// }
+// if (sum == number) {
+//   console.log(`${number} is an armstrong number`);
+// } else {
+//   console.log(`${number} is not an armstrong number`);
+// }
+
+// let number = prompt("enter your number");              *******************(input from user)
+// let numberOfDigit = number.length;
+// let temp = number;
+// let sum = 0;
+// while (temp > 0) {
+//   let digit = temp % 10;
+//   sum += digit ** numberOfDigit;
+//   temp = parseInt(temp / 10);
+// }
+// if (sum == number) {
+//   console.log(`${number} is an armstrong number`);
+// } else {
+//   console.log(`${number} is not an armstrong number`);
+// }
+
+//Q.11
+
 //Q.  make calculator in javascript using switch case.
 
 // let num1 = parseInt(prompt("enter your first number: "));
