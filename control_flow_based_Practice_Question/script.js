@@ -345,3 +345,23 @@
 //   i++;
 // }
 // console.log(`the sum of natural number is: ${sum}`);
+
+//Q.14    JavaScript Program to Check if the Numbers Have Same Last Digit.      *****************************
+
+let a = prompt("enter your first number");
+let b = prompt("enter your second number");
+let c = prompt("enter your third number");
+
+let result1 = a % 10;
+let result2 = b % 10;
+let result3 = c % 10;
+
+console.log("last digit number is: " + result1, result2, result3);
+
+if (result1 == result2 && result1 == result3) {
+  console.log(`${a} ${b} and ${c} having same last digit number `);
+} else {
+  console.log(`${a} ${b} and ${c} having not same last digit number `);
+}
+
+//Q.15      JavaScript Program to Find HCF or GCD         ***********************************
