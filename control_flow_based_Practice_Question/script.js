@@ -348,20 +348,32 @@
 
 //Q.14    JavaScript Program to Check if the Numbers Have Same Last Digit.      *****************************
 
-let a = prompt("enter your first number");
-let b = prompt("enter your second number");
-let c = prompt("enter your third number");
+// let a = prompt("enter your first number");
+// let b = prompt("enter your second number");
+// let c = prompt("enter your third number");
 
-let result1 = a % 10;
-let result2 = b % 10;
-let result3 = c % 10;
+// let result1 = a % 10;
+// let result2 = b % 10;
+// let result3 = c % 10;
 
-console.log("last digit number is: " + result1, result2, result3);
+// console.log("last digit number is: " + result1, result2, result3);
 
-if (result1 == result2 && result1 == result3) {
-  console.log(`${a} ${b} and ${c} having same last digit number `);
-} else {
-  console.log(`${a} ${b} and ${c} having not same last digit number `);
-}
+// if (result1 == result2 && result1 == result3) {
+//   console.log(`${a} ${b} and ${c} having same last digit number `);
+// } else {
+//   console.log(`${a} ${b} and ${c} having not same last digit number `);
+// }
 
 //Q.15      JavaScript Program to Find HCF or GCD         ***********************************
+
+// let num1 = prompt("enter your first number");
+// let num2 = prompt("enter your second number");
+
+// for (let i = 1; i <= num1 && i <= num2; i++) {
+//   if (num1 % i == 0 && num2 % i == 0) {
+//     hcf = i;
+//   }
+// }
+// console.log(`HCF of ${num1} and ${num2} is ${hcf}.`);
+
+//Q.16      JavaScript Program to Find LCM               ********************************
