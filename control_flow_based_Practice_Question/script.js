@@ -377,3 +377,48 @@
 // console.log(`HCF of ${num1} and ${num2} is ${hcf}.`);
 
 //Q.16      JavaScript Program to Find LCM               ********************************
+
+// let num1 = prompt("enter your first number");
+// let num2 = prompt("enter your second number");
+
+// let min = num1 > num2 ? num1 : num2;
+
+// while (true) {
+//   if (min % num1 == 0 && min % num2 == 0) {
+//     console.log(`the lcm of ${num1} and ${num2} is ${min}`);
+//     break;
+//   }
+//   min++;
+// }
+
+//Q.17  JavaScript Program to Find the Factors of a Number      ******************************************
+
+// let num = prompt("enter your number");
+
+// console.log(`the factors of ${num} is: `);
+
+// for (let i = 1; i <= num; i++) {
+//   if (num % i == 0) {
+//     console.log(i);
+//   }
+// }
+
+//Q.18      JavaScript Program to Display Fibonacci Sequence Using Recursion.            ***********************************
+
+function fibonacci(num) {
+  if (num < 2) {
+    return num;
+  } else {
+    return fibonacci(num - 1) + fibonacci(num - 2);
+  }
+}
+
+const nTerms = prompt("Enter the number of terms: ");
+
+if (nTerms <= 0) {
+  console.log("Enter a positive integer.");
+} else {
+  for (let i = 0; i < nTerms; i++) {
+    console.log(fibonacci(i));
+  }
+}
