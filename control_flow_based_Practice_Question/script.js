@@ -51,7 +51,7 @@
 //   console.log(`${a} is a negative number`);
 // }
 
-//Q.3 Javascript Program to Check if a Number is Odd or Even.    ************************************************
+//Q.3 Javascript Program to Check if a Number is Odd or Even.         ************************************************
 
 // let num = prompt("enter your number");
 
@@ -69,7 +69,7 @@
 
 // console.log(result);
 
-//Q.4  JavaScript Program to Find the Largest Among Three Numbers     ***************************************
+//Q.4  JavaScript Program to Find the Largest Among Three Numbers           ***************************************
 
 // let num1 = prompt("enter your first number");
 // let num2 = prompt("enter your second number");
@@ -114,7 +114,7 @@
 //   console.log(res);
 // }
 
-//Q.6   JavaScript Program to Print All Prime Numbers in an Interval    *************************************
+//Q.6   JavaScript Program to Print All Prime Numbers in an Interval          *************************************
 
 // let startNum = prompt("enter your start number");
 // let endNUm = prompt("enter your end number");
@@ -140,7 +140,7 @@
 //   }
 // }
 
-//Q.7  JavaScript Program to Find the Factorial of a Number    *************************************
+//Q.7  JavaScript Program to Find the Factorial of a Number         *************************************
 
 // let num = parseInt(prompt("enter your number"));
 
@@ -156,7 +156,7 @@
 //   console.log(`factorial of ${num} is: ${fact}`);
 // }
 
-//Q.8   JavaScript Program to Display the Multiplication Table.   *******************************************
+//Q.8   JavaScript Program to Display the Multiplication Table.        *******************************************
 
 // let num = prompt("enter your number");
 
@@ -164,7 +164,7 @@
 //   console.log(i * num);
 // }
 
-//second method                                    ****************
+//second method                                     ****************
 // let n = parseInt(prompt("enter your number: "));
 
 // for (let i = n; i <= n * 10; i = i + n) {
@@ -181,7 +181,7 @@
 //   console.log(i * n);
 // }
 
-//Q.9   JavaScript Program to Print the Fibonacci Sequence.  ******************************
+//Q.9   JavaScript Program to Print the Fibonacci Sequence.        ******************************
 
 // let a = 0;
 // let b = 1;
@@ -195,7 +195,7 @@
 //   console.log(temp);
 // }
 
-// let num = prompt("enter your number");   ***************(input from user)
+// let num = prompt("enter your number");       ***************(input from user)
 
 // let a = 0;
 // let b = 1;
@@ -209,7 +209,7 @@
 //   console.log(temp);
 // }
 
-// function fibonacci(num) {      ****************(using function)
+// function fibonacci(num) {           ****************(using function)
 //   let a = 0;
 //   let b = 1;
 //   console.log(a);
@@ -225,7 +225,7 @@
 
 // fibonacci(9);
 
-//Q.10  JavaScript Program to Check Armstrong Number.    ***************************
+//Q.10  JavaScript Program to Check Armstrong Number.         ***************************
 
 // let number = prompt("enter your number");
 // let temp = number;
@@ -256,9 +256,44 @@
 //   console.log(`${number} is not an armstrong number`);
 // }
 
-//Q.11
+//Q.11  JavaScript Program to Find Armstrong Number in an Interval       ******************************************
 
-//Q.  make calculator in javascript using switch case.
+// let a = prompt("enter your lower number");
+// let b = prompt("entr your upper number");
+
+// for (i = a; i <= b; i++) {
+//   let temp = i;
+//   let noOfDigits = i.toString().length;
+//   let sum = 0;
+//   while (temp > 0) {
+//     let digit = temp % 10;
+//     temp = parseInt(temp / 10);
+//     sum += digit ** noOfDigits;
+//   }
+//   if (sum == i) {
+//     console.log(i);
+//   }
+// }
+
+//Q.12   JavaScript Program to Make a Simple Calculator          ***********************************
+
+// let a = parseInt(prompt("enter your first value"));
+// let opt = prompt("enter your operator like:+,-,*,/,%");
+// let b = parseInt(prompt("enter your second value"));
+
+// if (opt == "+") {
+//   console.log(`${a}+${b}=${a + b}`);
+// } else if (opt == "-") {
+//   console.log(`${a}-${b}=${a - b}`);
+// } else if (opt == "*") {
+//   console.log(`${a}*${b}=${a * b}`);
+// } else if (opt == "/") {
+//   console.log(`${a}/${b}=${a / b}`);
+// } else if (opt == "%") {
+//   console.log(`${a}%${b}=${a % b}`);
+// }
+
+//Q.  make calculator in javascript using switch case.        ***************************
 
 // let num1 = parseInt(prompt("enter your first number: "));
 
@@ -290,3 +325,23 @@
 //     console.log(`mod: ${num1} % ${num2} = ${result}`);
 //     break;
 // }
+
+//Q.13   JavaScript Program to Find the Sum of Natural Numbers.       **********************************
+
+// let n = prompt("enter your number");
+// let sum = 0;
+// for (let i = 1; i <= n; i++) {
+//   sum += i;
+// }
+// console.log(`the sum of natural number is: ${sum}`);
+
+//Q.   Sum of Natural Numbers Using while Loop       **********************
+
+// let num = prompt("enter your number");
+// let sum = 0;
+// let i = 1;
+// while (i <= num) {
+//   sum += i;
+//   i++;
+// }
+// console.log(`the sum of natural number is: ${sum}`);
