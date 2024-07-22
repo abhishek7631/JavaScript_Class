@@ -147,16 +147,16 @@
 //   i++;
 // }
 
-let myName = "abhishek";
-let guess = prompt("guess my name");
-while (guess != myName && guess != "quite") {
-  guess = prompt("wrong guess! please try agin");
-}
-if (guess == myName) {
-  console.log("congrats! you guess my name");
-} else {
-  console.log("you quit this guessing game");
-}
+// let myName = "abhishek";
+// let guess = prompt("guess my name");
+// while (guess != myName && guess != "quite") {
+//   guess = prompt("wrong guess! please try agin");
+// }
+// if (guess == myName) {
+//   console.log("congrats! you guess my name");
+// } else {
+//   console.log("you quit this guessing game");
+// }
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
