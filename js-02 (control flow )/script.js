@@ -158,6 +158,41 @@
 //   console.log("you quit this guessing game");
 // }
 
+//Q. replace string.        ***************************
+
+// let str = "hello , 12 world....!!!";
+
+// function replace(para) {
+//   return para.replace("12", "13");
+// }
+// console.log(replace(str));
+
+// let str = "hello , 12 world....!!!";   *********************
+
+// function replace(para) {
+//   return para.replaceAll(" ", "");
+// }
+// console.log(replace(str));
+
+//Q. sorting a alphabatically in order.             ********************
+
+// let str = "javascript";
+
+// let splited = str.split("");
+
+// let sorted = splited.sort();
+
+// let result = sorted.join("");
+
+// console.log(result);
+
+// let str = "abhishek";          *********************
+// let splited = str.split("");
+// let sorted = splited.sort();
+// console.log(sorted);
+// let result = sorted.join("");
+// console.log(result);
+
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
 //****************************************  SELF PRACTICE QUESTION   *********************/
