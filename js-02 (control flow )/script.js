@@ -260,21 +260,31 @@
 
 //Q.
 
-let str = prompt("enter your string");
-function toggleCase(str) {
-  let togglestr = "";
-  for (let i = 0; i < str.length; i++) {
-    let char = str[i];
-    if (char === char.toUpperCase()) {
-      togglestr += char.toLowerCase();
-    } else {
-      togglestr += char.toUpperCase();
-    }
-  }
-  return togglestr;
-}
+// let str = prompt("enter your string");
+// function toggleCase(str) {
+//   let togglestr = "";
+//   for (let i = 0; i < str.length; i++) {
+//     let char = str[i];
+//     if (char === char.toUpperCase()) {
+//       togglestr += char.toLowerCase();
+//     } else {
+//       togglestr += char.toUpperCase();
+//     }
+//   }
+//   return togglestr;
+// }
 
-console.log(toggleCase(str));
+// console.log(toggleCase(str));
+
+//Q.
+
+// let str = "abhishek";
+// let res = 0;
+
+// for (let i = 0; i < str.length - 1; i++) {
+//   res++;
+// }
+// console.log(res);
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
