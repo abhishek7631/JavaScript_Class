@@ -39,20 +39,20 @@
 
 //Q.4     JavaScript Program to Find Factorial of Number Using Recursion.         ***************************
 
-function Factorial(num) {
-  if (num == 0) {
-    return 1;
-  } else {
-    return num * Factorial(num - 1);
-  }
-}
-let num = prompt("enter a number");
-if (num >= 0) {
-  let res = Factorial(num);
-  console.log(res);
-} else {
-  console.log("enter a positive number");
-}
+// function Factorial(num) {
+//   if (num == 0) {
+//     return 1;
+//   } else {
+//     return num * Factorial(num - 1);
+//   }
+// }
+// let num = prompt("enter a number");
+// if (num >= 0) {
+//   let res = Factorial(num);
+//   console.log(res);
+// } else {
+//   console.log("enter a positive number");
+// }
 
 // let n = prompt("enter your number");      ************
 // let fact = 1;
@@ -60,3 +60,5 @@ if (num >= 0) {
 //   fact *= i;
 // }
 // console.log(fact);
+
+//Q.5   JavaScript Program to Convert Decimal to Binary.        ***************************
