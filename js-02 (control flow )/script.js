@@ -228,6 +228,54 @@
 // let result = sorted.join("");
 // console.log(result);
 
+//Q.  remove character from the string except alphabet
+
+// let str = "abhishek01Kumar02ChoUDhary";
+
+// function remChar(str) {
+//   let string = "";
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] !== str[i].toUpperCase() || str[i] !== str[i].toLowerCase()) {
+//       string += str[i];
+//     }
+//   }
+//   console.log(string);
+// }
+
+// remChar(str);
+
+//Q.
+
+// let str = "abhishek";
+
+// let string = "";
+
+// for (let i = 0; i < str.length; i++) {
+//   let tot = str[i];
+//   if (!(tot == "a" || tot == "e" || tot == "i" || tot == "o" || tot == "u")) {
+//     string += tot;
+//   }
+// }
+// console.log(string);
+
+//Q.
+
+let str = prompt("enter your string");
+function toggleCase(str) {
+  let togglestr = "";
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i];
+    if (char === char.toUpperCase()) {
+      togglestr += char.toLowerCase();
+    } else {
+      togglestr += char.toUpperCase();
+    }
+  }
+  return togglestr;
+}
+
+console.log(toggleCase(str));
+
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
 //****************************************  SELF PRACTICE QUESTION   *********************/
