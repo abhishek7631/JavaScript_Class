@@ -156,13 +156,13 @@
 
 //Q.   JavaScript Program to Pass a Function as Parameter        ***************************
 
-function greet() {
-  return "hello";
-}
+// function greet() {
+//   return "hello";
+// }
 
-function name(user, func) {
-  let message = func();
-  console.log(`${message} ${user}`);
-}
+// function name(user, func) {
+//   let message = func();
+//   console.log(`${message} ${user}`);
+// }
 
-name("abhishek", greet);
+// name("abhishek", greet);
