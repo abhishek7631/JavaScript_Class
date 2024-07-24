@@ -286,6 +286,56 @@
 // }
 // console.log(res);
 
+//Q.
+
+// let arr = [10, 20, 3, 5, 21, 17];
+
+// res = arr.sort((a, b) => a - b);
+// console.log(res);
+
+//Q.
+
+// let arr = [10, 20, 3, 5, 21, 17];
+// res = arr.sort((a, b) => b - a);
+// console.log(res);
+
+//Q.
+
+// let str = "abhishek";
+
+// let vowel = ["a", "e", "i", "o", "u"];
+
+// let res = "";
+
+// for (let i = 0; i < str.length; i++) {
+//   if (!vowel.includes(str[i])) {
+//     res += str[i];
+//   }
+// }
+// console.log(res);
+
+//Q. a charcter is an alphabet or not
+
+// let str = prompt("enter your charcter: ");
+
+// function isAlphabet(char) {
+//   if (char.length === 1 && /[a-zA-Z]/.test(char)) {
+//     return `${char} is a alphabet`;
+//   }
+//   return `${char} is not a alphabet`;
+// }
+
+// console.log(isAlphabet(str));
+
+//Q. code to find ASCII values of a character.
+
+let str = prompt("enter your character");
+
+let asciiValue = str.charCodeAt(0);
+console.log(`the ascii value of ${str} is : ${asciiValue}`);
+
+//Q.
+
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
 //****************************************  SELF PRACTICE QUESTION   *********************/
