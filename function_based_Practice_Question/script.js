@@ -62,3 +62,74 @@
 // console.log(fact);
 
 //Q.5   JavaScript Program to Convert Decimal to Binary.        ***************************
+
+// let num = parseInt(prompt("enter your number"));      *********************
+
+// let decimal = num.toString(2);
+// console.log(`decimal number of ${num} is : ${decimal} `);
+
+// function getbinary(decimal) {
+//   if (decimal === 0) {
+//     return "0";
+//   }
+
+//   let Binary = "";
+//   while (decimal > 0) {
+//     Binary += decimal % 2;
+//     decimal = Math.floor(decimal / 2);
+//   }
+//   return Binary;
+// }
+
+// let decimal = prompt("enter your decimal number");
+
+// console.log(getbinary(decimal));
+
+//Q.6    JavaScript Program to Find ASCII Value of Character.             ***************************
+
+// let char = prompt("enter your character");
+
+// let asciiValue = char.charCodeAt(0);
+
+// console.log(`the ascii value of ${char} is: ${asciiValue} `);
+
+//Q.7    JavaScript Program to Set a Default Parameter Value For a Function.                   ***************************
+
+//Set Default Parameter Value For a Function     *************
+// function sum(x = 3, y = 5) {
+//   return x + y;
+// }
+
+// console.log(sum());
+// console.log(sum(10));
+// console.log(sum(4, 7));
+
+// Using Previous Parameter in Another Parameter     ***********
+
+// function sum(x = 5, y = x + 2) {
+//   return x + y;
+// }
+
+// console.log(sum());
+// console.log(sum(10));
+// console.log(sum(2, 3));
+
+//Q.8   JavaScript Program to Check If a Variable is of Function Type.                ***************************
+
+// function testVariable(Variable) {
+//   if (typeof Variable === "function") {
+//     console.log("the variavle is of function type");
+//   } else {
+//     console.log("the variable is not a function type");
+//   }
+// }
+
+// let count = true;
+// let x = function () {
+//   console.log("hello");
+// };
+
+// testVariable(count);
+// testVariable(x);
+
+//Q.9     JavaScript Program to Pass Parameter to a setTimeout() Function.                ***************************
