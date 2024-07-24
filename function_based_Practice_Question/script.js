@@ -133,3 +133,36 @@
 // testVariable(x);
 
 //Q.9     JavaScript Program to Pass Parameter to a setTimeout() Function.                ***************************
+//Passing Parameter to setTimeout.         ***************
+
+// function greet() {
+//   console.log("hello abhishek");
+// }
+
+// setTimeout(greet, 3000);
+// console.log("this message shown first");
+
+//Passing Parameter to Function.            *******************
+
+// function greet(x, y) {
+//   console.log(x);
+//   console.log(y);
+// }
+
+// setTimeout(greet, 3000, "hello", "abhishek");
+// console.log("this message shown first");
+
+//Q.10    JavaScript Program to Perform Function Overloading      ***************************
+
+//Q.   JavaScript Program to Pass a Function as Parameter        ***************************
+
+function greet() {
+  return "hello";
+}
+
+function name(user, func) {
+  let message = func();
+  console.log(`${message} ${user}`);
+}
+
+name("abhishek", greet);
