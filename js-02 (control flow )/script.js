@@ -329,12 +329,26 @@
 
 //Q. code to find ASCII values of a character.
 
-let str = prompt("enter your character");
+// let str = prompt("enter your character");
 
-let asciiValue = str.charCodeAt(0);
-console.log(`the ascii value of ${str} is : ${asciiValue}`);
+// let asciiValue = str.charCodeAt(0);
+// console.log(`the ascii value of ${str} is : ${asciiValue}`);
 
-//Q.
+//Q. check uppercase,lowercase and special charcter.
+
+// let str = prompt("enter your string");
+
+// function checkChar(char) {
+//   if (char == char.toUpperCase() && char !== char.toLowerCase()) {
+//     return `${str} is uppercase alphabet`;
+//   } else if (char == char.toLowerCase() && char !== char.toUpperCase()) {
+//     return `${str} is lowercase alphabet`;
+//   } else {
+//     return `${str} is special character`;
+//   }
+// }
+
+// console.log(checkChar(str));
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
