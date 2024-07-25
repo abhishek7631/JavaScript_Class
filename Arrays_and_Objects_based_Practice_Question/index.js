@@ -1,4 +1,4 @@
-//Q.  JavaScript Program to Shuffle Deck of Cards            **********************
+//Q.1  JavaScript Program to Shuffle Deck of Cards            **********************
 
 // program to shuffle the deck of cards
 
@@ -46,7 +46,7 @@
 //   console.log(`${deck[i].Value} of ${deck[i].Suit}`);
 // }
 
-//Q.     JavaScript Program to Create Objects in Different Ways      *********************************
+//Q.2     JavaScript Program to Create Objects in Different Ways      *********************************
 
 // const person = {
 //   name: "John",
@@ -69,7 +69,7 @@
 // person.greet();
 // console.log(person.score.maths);
 
-//Q..JavaScript Program to Remove a Property from an Object        ***********************************
+//Q.3     JavaScript Program to Remove a Property from an Object        ***********************************
 
 // program to remove a property from an object
 
@@ -93,7 +93,7 @@
 
 // console.log(student);
 
-//Q..   JavaScript Program to Check if a Key Exists in an Object       **********************************
+//Q.4   JavaScript Program to Check if a Key Exists in an Object       **********************************
 
 // program to check if a key exists
 
@@ -111,3 +111,5 @@
 // } else {
 //   console.log("The key does not exist.");
 // }
+
+//Q.5    JavaScript Program to Clone a JS Object       ****************************8
