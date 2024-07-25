@@ -48,23 +48,66 @@
 
 //Q.     JavaScript Program to Create Objects in Different Ways      *********************************
 
-const person = {
-  name: "John",
-  age: 20,
-  hobbies: ["reading", "games", "coding"],
-  greet: function () {
-    console.log("Hello everyone.");
-  },
-  score: {
-    maths: 90,
-    science: 80,
-  },
-};
+// const person = {
+//   name: "John",
+//   age: 20,
+//   hobbies: ["reading", "games", "coding"],
+//   greet: function () {
+//     console.log("Hello everyone.");
+//   },
+//   score: {
+//     maths: 90,
+//     science: 80,
+//   },
+// };
 
-console.log(typeof person); // object
+// console.log(typeof person); // object
 
-// accessing the object value
-console.log(person.name);
-console.log(person.hobbies[0]);
-person.greet();
-console.log(person.score.maths);
+// // accessing the object value
+// console.log(person.name);
+// console.log(person.hobbies[0]);
+// person.greet();
+// console.log(person.score.maths);
+
+//Q..JavaScript Program to Remove a Property from an Object        ***********************************
+
+// program to remove a property from an object
+
+// creating an object
+// const student = {
+//   name: "John",
+//   age: 20,
+//   hobbies: ["reading", "games", "coding"],
+//   greet: function () {
+//     console.log("Hello everyone.");
+//   },
+//   score: {
+//     maths: 90,
+//     science: 80,
+//   },
+// };
+
+// // deleting a property from an object
+// delete student.greet;
+// delete student["score"];
+
+// console.log(student);
+
+//Q..   JavaScript Program to Check if a Key Exists in an Object       **********************************
+
+// program to check if a key exists
+
+// const person = {
+//   id: 1,
+//   name: "John",
+//   age: 23,
+// };
+
+// // check if key exists
+// const hasKey = "name" in person;
+
+// if (hasKey) {
+//   console.log("The key exists.");
+// } else {
+//   console.log("The key does not exist.");
+// }
