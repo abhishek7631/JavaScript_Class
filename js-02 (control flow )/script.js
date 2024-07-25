@@ -350,6 +350,49 @@
 
 // console.log(checkChar(str));
 
+//Q.
+
+// function isPosandNeg(num) {
+//   if (num == 0) {
+//     return `${num} is zero number`;
+//   } else if (num > 0) {
+//     return `${num} is positive number`;
+//   } else if (num < 0) {
+//     return `${num} is negative number`;
+//   }
+// }
+
+// let num = prompt("enter your number");
+// console.log(isPosandNeg(num));
+
+//Q.
+
+// function isEvenOdd(num) {
+//   if (num % 2 == 0) {
+//     return `${num} is even number`;
+//   } else {
+//     return `${num} is odd number`;
+//   }
+// }
+
+// let num = prompt("enter your number");
+// console.log(isEvenOdd(num));
+
+//Q. rotating array from last one to first one.
+
+// let n = 4;
+// let a = [2, 4, 6, 8];
+
+// function add(a, n) {
+//   for (let i = 0; i < n; i++) {
+//     a.unshift(a.pop());
+//     console.log(a);
+//   }
+// }
+// console.log(add(a, n));
+
+//Q.
+
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
 //****************************************  SELF PRACTICE QUESTION   *********************/
