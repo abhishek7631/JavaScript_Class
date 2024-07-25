@@ -393,6 +393,16 @@
 
 //Q.
 
+function leapYear(year) {
+  if (year % 4 == 0) {
+    console.log("leap year");
+  } else {
+    console.log("not a leap year");
+  }
+}
+
+console.log(leapYear(2001));
+
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
 //****************************************  SELF PRACTICE QUESTION   *********************/
