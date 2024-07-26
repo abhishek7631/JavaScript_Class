@@ -46,11 +46,43 @@
 
 //create a function to roll dice and always display the value of the dice (1 to 6).         ******************
 
-function rolldice() {
-  let dice = Math.floor(Math.random() * 6) + 1;
-  console.log(dice);
-}
+// function rolldice() {
+//   let dice = Math.floor(Math.random() * 6) + 1;
+//   console.log(dice);
+// }
 
-rolldice();
+// rolldice();
 
 // functions with arguments.                ******************
+
+// function printInfo(name, age) {
+//   console.log(`${name}'s age is ${age}`);
+// }
+
+// printInfo("abhishek", 23);
+
+// function sum(a, b) {           *****************
+//   console.log(a + b);
+// }
+
+// sum(12, 10);
+// sum(2, 3);
+
+// create a function that give us the average of three numbers.                 ******************
+
+// function average(a, b, c) {
+//   let avg = (a + b + c) / 3;
+//   console.log(avg);
+// }
+
+// average(2, 4, 6);
+
+// create a function that prints the multiplication table of a number.            ***************
+
+function printTbale(n) {
+  for (let i = n; i <= n * 10; i += n) {
+    console.log(i);
+  }
+}
+
+printTbale(73);
