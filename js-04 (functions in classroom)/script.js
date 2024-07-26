@@ -79,10 +79,44 @@
 
 // create a function that prints the multiplication table of a number.            ***************
 
-function printTbale(n) {
-  for (let i = n; i <= n * 10; i += n) {
-    console.log(i);
-  }
-}
+// function printTbale(n) {
+//   for (let i = n; i <= n * 10; i += n) {
+//     console.log(i);
+//   }
+// }
 
-printTbale(73);
+// printTbale(73);
+
+//return keyword            **************
+
+// function sum(a, b) {
+//   return a + b;
+// }
+// let res = sum(2, 3);
+// console.log(res);
+
+// create a function that returns the sum of the numbers from 1 to n.                      *******************
+
+// function sumOfNumber(num) {
+//   let sum = 0;
+//   for (let i = 1; i <= num; i++) {
+//     sum = sum + i;
+//   }
+//   return sum;
+// }
+// let num = parseInt(prompt("enter your first number"));
+// console.log(sumOfNumber(num));
+
+//create a function that returns the concatenation of all strings in an array.              **********************
+
+// let str = ["hi", "hello", "bye", "!"];
+
+// function concat(str) {
+//   let result = "";
+//   for (let i = 0; i < str.length; i++) {
+//     result += str[i];
+//   }
+//   return result;
+// }
+
+// console.log(concat(str));
