@@ -120,3 +120,48 @@
 // }
 
 // console.log(concat(str));
+
+// what will be the output.                ********************
+
+// let greet = "hello";
+
+// function changeGreet() {
+//   let greet = "namsate";
+//   console.log(greet);
+//   function innerGreet() {
+//     console.log(greet);
+//   }
+// }
+
+// console.log(greet);
+// changeGreet();
+
+//function expression.    *******************
+
+// let sum = function (a, b) {
+//   return a + b;
+// };
+
+// console.log(sum(2, 2));
+
+// *****
+
+// let hello = function () {
+//   console.log("hello");
+// };
+
+// console.log(hello());
+
+// high order functions.     ****************
+
+function multipleGreet(fun, n) {
+  for (let i = 1; i <= n; i++) {
+    fun();
+  }
+}
+
+let greet = function () {
+  console.log("hello");
+};
+
+console.log(multipleGreet(greet, 2));
