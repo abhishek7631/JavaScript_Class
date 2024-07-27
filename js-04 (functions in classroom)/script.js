@@ -220,3 +220,22 @@ console.log(calculator.mul(2, 3));
 // console.log(getElements(arr, num));
 
 //Q.2 Write a JavaScript function to extract unique characters from a string.     ******************
+
+function extractUniqueCharacters(str) {
+  let uniqueChars = "";
+  let seenChars = {};
+
+  for (let i = 0; i < str.length; i++) {
+    if (!seenChars[str[i]]) {
+      uniqueChars += str[i];
+      seenChars[str[i]] = true;
+    }
+  }
+
+  return uniqueChars;
+}
+
+// Example usage:
+let str = "abcdabcdefgggh";
+let result = extractUniqueCharacters(str);
+console.log(result); // Output: "abcdefgh"
