@@ -100,3 +100,5 @@ let inputString = prompt("Enter your string");
 console.log(
   `The number of vowels in the string is: ${countVowels(inputString)}`
 );
+
+//this code written by abhishek choudhary.
