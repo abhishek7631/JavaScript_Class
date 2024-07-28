@@ -52,3 +52,74 @@
 // };
 
 // console.log(power(2, 4));
+
+// Arrow functions (implicit return).              **********************
+
+// const mul = (a, b) => a * b;      ***********
+
+// console.log(mul(2, 3));
+
+// const sum = (a, b) => a + b;    *************
+// console.log(sum(2, 3));
+
+// const cube = (n) => n * n * n;      ***********
+// console.log(cube(2));
+
+// set timeout.           ****************************
+
+// console.log("hi there!");
+
+// setTimeout(() => {
+//   console.log("my Git repo..!");
+// }, 4000);
+
+// console.log("welcome to");
+
+//  set interval.                       ********************
+
+// console.log("hiii!");
+// setInterval(() => {
+//   console.log("this is abhishek choudhary");
+// }, 2000);
+
+// console.log("thank you..!");
+
+// console.log("hiii!");
+// let id = setInterval(() => {
+//   console.log("this is abhishek choudhary");
+// }, 2000);
+
+// console.log("thank you..!");
+
+// clearInterval(id);
+
+// this with arrow function.               ********************
+
+const student = {
+  name: "abhishek",
+  marks: 98,
+  prop: this,
+  getName: function () {
+    console.log(this);
+    return this.name;
+  },
+  getMarks: () => {
+    console.log(this);
+    return this.marks;
+  },
+  getInfo1: function () {
+    setTimeout(() => {
+      console.log(this);
+    }, 2000);
+  },
+  getInfo2: function () {
+    setTimeout(function () {
+      console.log(this);
+    }, 2000);
+  },
+};
+
+console.log(student.getName());
+console.log(student.getMarks());
+console.log(student.getInfo1());
+console.log(student.getInfo2());
