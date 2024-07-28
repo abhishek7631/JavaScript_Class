@@ -95,31 +95,58 @@
 
 // this with arrow function.               ********************
 
-const student = {
-  name: "abhishek",
-  marks: 98,
-  prop: this,
-  getName: function () {
-    console.log(this);
-    return this.name;
-  },
-  getMarks: () => {
-    console.log(this);
-    return this.marks;
-  },
-  getInfo1: function () {
-    setTimeout(() => {
-      console.log(this);
-    }, 2000);
-  },
-  getInfo2: function () {
-    setTimeout(function () {
-      console.log(this);
-    }, 2000);
-  },
-};
+// const student = {
+//   name: "abhishek",
+//   marks: 98,
+//   prop: this,
+//   getName: function () {
+//     console.log(this);
+//     return this.name;
+//   },
+//   getMarks: () => {
+//     console.log(this);
+//     return this.marks;
+//   },
+//   getInfo1: function () {
+//     setTimeout(() => {
+//       console.log(this);
+//     }, 2000);
+//   },
+//   getInfo2: function () {
+//     setTimeout(function () {
+//       console.log(this);
+//     }, 2000);
+//   },
+// };
 
-console.log(student.getName());
-console.log(student.getMarks());
-console.log(student.getInfo1());
-console.log(student.getInfo2());
+// console.log(student.getName());
+// console.log(student.getMarks());
+// console.log(student.getInfo1());
+// console.log(student.getInfo2());
+
+//Q.   write an arrow function that returns the square of a number 'n'.      ***********************
+
+// const square = (n) => {    **************
+//   return n * n;
+// };
+
+// console.log(square(2));
+
+// const square1 = (n) => n * n;    **************
+// console.log(square(3));
+
+// const square2 = (n) => {     ****************
+//   console.log(n * n);
+// };
+
+// console.log(square(4));
+
+//Q.  write a function that prints "hello world" 5 times at interval of 2s each.           **************************
+
+let id = setInterval(() => {
+  console.log("hello world");
+}, 2000);
+
+setTimeout(() => {
+  clearInterval(id);
+}, 10000);
