@@ -143,10 +143,74 @@
 
 //Q.  write a function that prints "hello world" 5 times at interval of 2s each.           **************************
 
-let id = setInterval(() => {
-  console.log("hello world");
-}, 2000);
+// let id = setInterval(() => {
+//   console.log("hello world");
+// }, 2000);
 
-setTimeout(() => {
-  clearInterval(id);
-}, 10000);
+// setTimeout(() => {
+//   clearInterval(id);
+// }, 10000);
+
+//Q. Write an arrow function named arrayAverage that accepts an array of numbers and returns the average of those numbers.         *****************************
+
+// let arrayAverage = (arr) => {
+//   let total = 0;
+//   for (let number of arr) {
+//     total += number;
+//   }
+//   return total / arr.length;
+// };
+
+// let arr = [1, 2, 3, 4, 5];
+
+// console.log(arrayAverage(arr));
+
+//Q.  Write an arrow function named isEven() that takes a single number as argument and returns if it is even or not.               *************************
+
+// let n = 4;
+
+// let isEven = (num) => num % 2 == 0;
+
+// console.log(isEven(n));
+
+// let isEven = (n) => {                ***************
+//   if (n % 2 == 0) {
+//     console.log("number is even");
+//   } else {
+//     console.log("number is odd");
+//   }
+// };
+
+// let n = prompt("enter your number");
+// console.log(isEven(n));
+
+// let isEven = (n) => (n % 2 == 0 ? "even" : "odd");    ****************
+
+// console.log(isEven(4));
+
+//Q.3  what is the output of the following code.         ***************************
+
+// const object = {
+//   message: "hello, world",
+//   logMessage() {
+//     console.log(this.message);
+//   },
+// };
+
+// setTimeout(object.logMessage, 1000);
+
+//Q.  what is the output of the following code.                 **********************
+
+let length = 4;
+function callback() {
+  console.log(this.length);
+}
+
+const object = {
+  length: 5,
+  method(callback) {
+    callback();
+  },
+};
+
+object.method(callback, 1, 2);
