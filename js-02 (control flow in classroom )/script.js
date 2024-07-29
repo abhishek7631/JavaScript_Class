@@ -393,15 +393,57 @@
 
 //Q.
 
-function leapYear(year) {
-  if (year % 4 == 0) {
-    console.log("leap year");
-  } else {
-    console.log("not a leap year");
+// function leapYear(year) {
+//   if (year % 4 == 0) {
+//     console.log("leap year");
+//   } else {
+//     console.log("not a leap year");
+//   }
+// }
+
+// console.log(leapYear(2001));
+
+//Q.  print star pattern.
+
+function printstar(row) {
+  for (let i = 1; i <= row; i++) {
+    console.log("*".repeat(i));
   }
 }
 
-console.log(leapYear(2001));
+console.log(printstar(6));
+
+//Q.
+
+// let arr = [1, 4, 5, 3, 2, 7, 9, 6, 8];
+
+// let res = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i; j < arr.length; j++) {
+//     if (arr[i] + arr[j] == 8) {
+//       res.push([arr[i], arr[j]]);
+//     }
+//   }
+// }
+
+// console.log(res);
+
+//Q. add a one string in the middle of the another string without inbuilt method.
+
+// let a = "abhishek";    *********
+// let b = " kumar";
+// let res = a.concat(b);
+// console.log(res);
+
+let a = "you great";
+let b = "must be";
+
+console.log(a.slice(0, 3));
+console.log(a.slice(4));
+
+let merge = a.slice(0, 4) + b + " " + a.slice(4);
+console.log(merge);
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
