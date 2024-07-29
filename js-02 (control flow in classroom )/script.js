@@ -405,13 +405,13 @@
 
 //Q.  print star pattern.
 
-function printstar(row) {
-  for (let i = 1; i <= row; i++) {
-    console.log("*".repeat(i));
-  }
-}
+// function printstar(row) {
+//   for (let i = 1; i <= row; i++) {
+//     console.log("*".repeat(i));
+//   }
+// }
 
-console.log(printstar(6));
+// console.log(printstar(6));
 
 //Q.
 
@@ -436,14 +436,50 @@ console.log(printstar(6));
 // let res = a.concat(b);
 // console.log(res);
 
-let a = "you great";
-let b = "must be";
+// let a = "you great";
+// let b = "must be";
 
-console.log(a.slice(0, 3));
-console.log(a.slice(4));
+// console.log(a.slice(0, 3));
+// console.log(a.slice(4));
 
-let merge = a.slice(0, 4) + b + " " + a.slice(4);
-console.log(merge);
+// let merge = a.slice(0, 4) + b + " " + a.slice(4);
+// console.log(merge);
+
+//Q.
+
+// let arr = [1, 2, 3, 4, 5];
+// let newarr = [];
+// for (let i = 0; i < arr.length; i++) {
+//   newarr.push([arr[i], arr[i]]);
+// }
+
+// console.log(newarr);
+
+//Q.
+
+// function sum(start, end) {
+//   let sum = 0;
+//   for (let i = start; i <= end; i++) {
+//     sum += i;
+//   }
+//   return sum;
+// }
+
+// console.log(sum(1, 100));
+
+//Q.
+
+let a = prompt("enter your first value");
+let b = prompt("enter your second value");
+
+console.log(`before swapping a is : ${a}`);
+console.log(`before swapping b is : ${b}`);
+console.log("-----------------------------");
+
+[a, b] = [b, a];
+
+console.log(`after swapping a is : ${a}`);
+console.log(`after swapping b is : ${b}`);
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
