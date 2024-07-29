@@ -197,3 +197,28 @@
 // let datacopy = { ...data, id: 123 };
 
 //rest.         ***********************
+
+//Destructuring.           ************
+
+// let names = ["tony", "bruce", "steve", "peter"];
+// let [winner, runnerup] = names;
+// console.log(winner, runnerup);
+
+//or
+
+// let names = ["tony", "bruce", "steve", "peter", "xyx", "abc"];
+// let [winner, runnerup, ...others] = names;
+// console.log(winner, runnerup);
+
+//Destructuring (for objects).         *******************
+
+const student = {
+  name: "abhishek",
+  class: "D",
+  age: 23,
+  subject: ["hindi", "english", "math"],
+  username: "abhi@123",
+  password: "abs@123",
+};
+
+let { username, password } = student;
