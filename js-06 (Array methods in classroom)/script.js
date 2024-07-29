@@ -212,13 +212,48 @@
 
 //Destructuring (for objects).         *******************
 
-const student = {
-  name: "abhishek",
-  class: "D",
-  age: 23,
-  subject: ["hindi", "english", "math"],
-  username: "abhi@123",
-  password: "abs@123",
-};
+// const student = {
+//   name: "abhishek",
+//   class: "D",
+//   age: 23,
+//   subject: ["hindi", "english", "math"],
+//   username: "abhi@123",
+//   password: "abs@123",
+// };
 
-let { username, password } = student;
+// let { username, password } = student;
+
+/*Qs1. Square and sum the array elements using the arrow 
+function and then find the average of the array. */ //                  **********************
+
+// let arr = [1, 2, 3, 4];
+// let Square = arr.map((el) => el * el);
+// console.log(Square);
+
+// let sum = Square.reduce((res, el) => res + el);
+// console.log(sum);
+
+// let avg = sum / arr.length;
+// console.log(avg);
+
+/*Qs2. Create a newarray using the map function whose
+each element is equal to the original element plus 5. */ //                        *******************
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+// let newArr = arr.map((el) => el + 5);
+// console.log(newArr);
+
+/*Qs3. Create a newarray whose elements are in uppercase of 
+words present in the original array. */ //                                            ************************
+
+let strings = ["abhishek", "sudhakar", "ujjawal", "ankit", "bhaskar"];
+
+let newArr = strings.map((strings) => strings.toUpperCase());
+console.log(newArr);
+
+/*Qs4. Write a function called mergeObjects that accepts two objects and returns a
+newobject which contains all the keys and values of the first object and second object. */ //             *************************
+
+let mergeObjects = (obj1, obj2) => ({ ...obj1, ...obj2 });
+console.log(mergeObjects({ a: 1, b: 2 }, { c: 3, d: 4 }));
