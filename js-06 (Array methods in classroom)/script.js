@@ -86,20 +86,114 @@
 
 //every    ***********************
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-let res = arr.every((el) => {
-  return el % 2 == 0;
-});
+// let res = arr.every((el) => {
+//   return el % 2 == 0;
+// });
 
-console.log(res);
+// console.log(res);
 
 //or
 
-let arr2 = [2, 4, 6];
+// let arr2 = [2, 4, 6];
 
-let res2 = arr2.every((el) => {
-  return el % 2 == 0;
-});
+// let res2 = arr2.every((el) => {
+//   return el % 2 == 0;
+// });
 
-console.log(res2);
+// console.log(res2);
+
+// reduce.       ***********************
+
+// let arr = [1, 2, 3, 4];
+
+// let res = arr.reduce((res, el) => {
+//   return res + el;
+// });
+
+// console.log(res);
+
+//or
+
+// let arr = [1, 2, 30, 4, 5, 6, 7, 8];
+
+// let res = arr.reduce((max, el) => {
+//   if (el > max) {
+//     return el;
+//   } else {
+//     return max;
+//   }
+// });
+
+// console.log(res);
+
+//Q. cheack if all numbers in our array are multiples of 10 or not.    **********************
+// let arr = [10, 20, 30, 40];
+
+// let ans = arr.every((el) => {
+//   return el % 10 == 0;
+// });
+
+// console.log(ans);
+
+//Q.  create a function to find the minimum in an array.    **********
+
+// let arr = [30, 56, 29, 56, 40, 12, 34, 67];
+
+// let ans = arr.reduce((min, el) => {
+//   if (min < el) {
+//     return min;
+//   } else {
+//     return el;
+//   }
+// });
+
+// console.log(ans);
+
+// default parameters.     ********************
+
+// function sum(a, b = 3) {
+//   return a + b;
+// }
+
+// console.log(sum(3, 4));
+
+//spread.       *******************
+
+// console.log(..."abhishek");
+
+// //or
+
+// let arr = [1, 2, 4, 5, 55, 7, 8];
+// console.log(Math.max(...arr));
+
+//spread (array literals).                  ********************
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let newArr = [...arr];
+
+// or
+
+// let char = "abhishek";
+
+// let newChar = [...char];
+//or
+
+// let odd = [1, 3, 5, 7, 9];
+// let even = [2, 4, 6, 8, 10];
+
+// let res = [...odd, ...even];
+// console.log(res);
+
+//spread (object litrals).          **************
+
+// let data = {
+//   email: "abhishek@123",
+//   password: "abcd123",
+// };
+
+// let datacopy = { ...data, id: 123 };
+
+//rest.         ***********************
