@@ -469,17 +469,29 @@
 
 //Q.
 
-let a = prompt("enter your first value");
-let b = prompt("enter your second value");
+// let a = prompt("enter your first value");
+// let b = prompt("enter your second value");
 
-console.log(`before swapping a is : ${a}`);
-console.log(`before swapping b is : ${b}`);
-console.log("-----------------------------");
+// console.log(`before swapping a is : ${a}`);
+// console.log(`before swapping b is : ${b}`);
+// console.log("-----------------------------");
 
-[a, b] = [b, a];
+// [a, b] = [b, a];
 
-console.log(`after swapping a is : ${a}`);
-console.log(`after swapping b is : ${b}`);
+// console.log(`after swapping a is : ${a}`);
+// console.log(`after swapping b is : ${b}`);
+
+let student = {
+  name: "abhishek",
+  class: 23,
+  age: 23,
+};
+
+let num1 = [1, 2, 3, 4, 5];
+let num2 = [6, 7, 8, 9, 0];
+
+let res = num1.concat(num2);
+console.log(res);
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
