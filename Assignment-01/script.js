@@ -1,3 +1,5 @@
+//Array Methods Assignment Questions.
+
 //Question 1:
 //Convert the array arr = [1, 2, 3, 4, 5] into a string with each element separated by a hyphen (-).
 
@@ -127,3 +129,127 @@
 // let Reverse = arr.reverse();
 // console.log("after reverse the array:");
 // console.log(Reverse);
+
+//Question 13:
+//Check if the array arr = [1, 2, 3, 4, 5] contains the number 3.
+
+// console.log("this is our array:");
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+
+// let checkArr = arr.includes(3);
+// console.log(checkArr);
+// console.log("if output give true, it means array contains 3 elements");
+
+//Question 14:
+//Find the index of the first occurrence of the number 3 in the array arr = [1, 2, 3, 4, 5].
+
+// console.log("this is our array:");
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+// console.log("index of the first occurence of the number 3 is:");
+// let index = arr.indexOf(3);
+// console.log(index);
+
+//String Methods Assignment Questions.
+
+//Question 1:
+//Get the character at index 2 in the string str = "hello".
+
+// console.log("this is our string:");
+// let str = "hello";
+// console.log(str);
+// console.log("character at index 2 is:");
+// let char = str.charAt(2);
+// console.log(char);
+
+//Question 2:
+//Get the Unicode of the character at index 1 in the string str = "hello".
+
+// console.log("this is our string:");
+// let str = "hello";
+// console.log(str);
+// console.log("unicode of index 1 character is:");
+// let uniCode = str.charCodeAt(1);
+// console.log(uniCode);
+
+//Question 3:
+//Replace all occurrences of the word "apple" with "orange" in the string str = "apple apple".
+
+// console.log("this is our string:");
+// let str = "apple apple";
+// console.log(str);
+// console.log("this is the output after replace the string:");
+// let replaced = str.replaceAll("apple", "orange");
+// console.log(replaced);
+
+//Question 4:
+//Extract the part of the string str = "hello world" from index 0 to 5.
+
+// console.log("this is our string:");
+// let str = "hello world";
+// console.log(str);
+// console.log("after extract the string from 0 to 5 is:");
+// let extract = str.slice(0, 5);
+// console.log(extract);
+
+//Question 5:
+//Split the string str = "a,b,c" into an array of substrings separated by a comma.
+
+// console.log("this is our string:");
+// let str = "a,b,c";
+// console.log(str);
+// console.log("array of substrings:");
+// let splited = str.split(",");
+// console.log(splited);
+
+//Question 6:
+//Extract 4 characters from the string str = "hello world" starting at index 6.
+
+// console.log("this is our string");
+// let str = "hello world";
+// console.log(str);
+// console.log("extract 4 character starting at index 6 is :");
+// let extract = str.slice(6, 10);
+// console.log(extract);
+
+//Question 7:
+//Extract characters from the string str = "hello world" from index 2 to 7.
+
+// console.log("this is our string:");
+// let str = "hello world";
+// console.log(str);
+// console.log("extract character from index 2 to 7 is :");
+// let extract = str.slice(2, 7);
+// console.log(extract);
+
+//Question 8:
+//Get the length of the string str = "hello".
+
+// console.log("this is our string:");
+// let str = "hello";
+// console.log(str);
+// console.log("length of the string is :");
+// let leng = str.length;
+
+// console.log(leng);
+
+//Question 9:
+//Convert the string str = "HELLO" to lowercase.
+
+// console.log("this is our string:");
+// let str = "HELLO";
+// console.log(str);
+// let result = str.toLowerCase();
+// console.log("convert to lowerCase:");
+// console.log(result);
+
+//Question 10:
+//Convert the string str = "hello" to uppercase.
+
+console.log("this is our string:");
+let str = "hello";
+console.log(str);
+let result = str.toUpperCase();
+console.log("convert to upperCase");
+console.log(result);
