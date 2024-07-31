@@ -84,3 +84,46 @@
 // console.log("after merging both arrays:");
 // let mergeArray = arr1.concat(arr2);
 // console.log(mergeArray);
+
+// Question 9:
+//Sort the array arr = [5, 3, 8, 1, 2] in ascending order.
+
+// console.log("this is our array:");
+// let arr = [5, 3, 8, 1, 2];
+// console.log(arr);
+// console.log("after sort the array:");
+// let sorted = arr.sort();
+// console.log(sorted);
+
+//Question 10:
+//Remove 2 elements starting at index 1 from the array arr = [1, 2, 3, 4, 5] and insert the numbers 6 and 7 at that position.
+
+// console.log("this is our array:");
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+// console.log("delete two elements from index 1:");
+// let result = arr.splice(1, 2, 6, 7);
+// console.log(result);
+// console.log("this is new array:");
+// console.log(arr);
+
+// //Question 11:
+// //Create a new array from arr = [1, 2, 3, 4, 5] containing elements from index 1 to 3.
+
+// console.log("this is our array:");
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+
+// console.log("this is new array containing elements from 1 to 3:");
+// let newArr = arr.slice(0, 3);
+// console.log(newArr);
+
+//Question 12:
+//Reverse the elements of the array arr = [1, 2, 3, 4, 5].
+
+// console.log("this is our array:");
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
+// let Reverse = arr.reverse();
+// console.log("after reverse the array:");
+// console.log(Reverse);
