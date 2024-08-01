@@ -144,3 +144,50 @@
 
 // let str = prompt("enter your string");
 // console.log(notVowels(str));
+
+//Q.11  A character is an alphabet or not.
+
+// function alphabetOrNot(str) {
+//   return str.toUpperCase() !== str.toLowerCase();
+// }
+
+// let str = prompt("enter your string");
+// console.log(alphabetOrNot(str));
+
+//Q.12  Code to find Ascii values of a character.
+
+// function findAscii(char) {
+//   let res = char.charCodeAt(0);
+//   return res;
+// }
+
+// let char = prompt("enter your character:");
+// console.log(findAscii(char));
+
+//Q.13  To Check Uppercase, Lowercase or special character.
+
+// function checkCharacter(str) {
+//   if (str === str.toUpperCase() && str !== str.toLowerCase()) {
+//     return "upper case character";
+//   } else if (str === str.toLowerCase() && str !== str.toUpperCase()) {
+//     return "lower case character";
+//   } else {
+//     return "special character";
+//   }
+// }
+
+// let str = prompt("enter your character:");
+// console.log(checkCharacter(str));
+
+//Q.14  To Check Number is positive or negative.
+
+// function checkPostiveNegative(num) {
+//   if (num >= 0) {
+//     return "number is positive integer";
+//   } else {
+//     return "number is negative integer";
+//   }
+// }
+
+// let num = prompt("enter your number");
+// console.log(checkPostiveNegative(num));
