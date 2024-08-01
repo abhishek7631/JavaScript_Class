@@ -5,9 +5,10 @@
 //   for (let i = 0; i < len / 2; i++) {
 //     if (string[i] !== string[len - 1 - i]) {
 //       return `${string} is not palindrome`;
+//     } else {
+//       return `${string} is palindrome`;
 //     }
 //   }
-//   return `${string} is palindrome`;
 // }
 
 // let str = prompt("enter your string");
@@ -83,22 +84,103 @@
 
 //Q.7   JavaScript Program to Count the Number of Vowels in a String.     ***********************
 
-function countVowels(str) {
-  const vowels = "aeiouAEIOU";
-  let count = 0;
+// function countVowels(str) {
+//   const vowels = "aeiouAEIOU";
+//   let count = 0;
 
-  for (let i = 0; i < str.length; i++) {
-    if (vowels.includes(str[i])) {
-      count += 1;
-    }
-  }
+//   for (let i = 0; i < str.length; i++) {
+//     if (vowels.includes(str[i])) {
+//       count += 1;
+//     }
+//   }
 
-  return count;
-}
+//   return count;
+// }
 
-let inputString = prompt("Enter your string");
-console.log(
-  `The number of vowels in the string is: ${countVowels(inputString)}`
-);
+// let inputString = prompt("Enter your string");
+// console.log(
+//   `The number of vowels in the string is: ${countVowels(inputString)}`
+// );
 
-//this code written by abhishek choudhary.
+//Q.8  JavaScript Program to Check Whether a String Starts and Ends With Certain Characters.            *********************************
+
+// function checkStartEndSame(str) {
+//   if (str.length === 0) {
+//     return `this is empty string`;
+//   }
+
+//   let startChar = str.charAt(0);
+//   let endChar = str.charAt(str.length - 1);
+
+//   if (startChar === endChar) {
+//     return `the ${str} starts and ends with the same character`;
+//   } else {
+//     return `the ${str} starts and ends with the not same character`;
+//   }
+// }
+
+// let str = prompt("enter your string");
+
+// console.log(checkStartEndSame(str));
+
+//2nd type        **************
+
+// function checkStartEndSame(str) {
+//   if (str.startsWith("s") && str.endsWith("g")) {
+//     return `${str} start and end with same character`;
+//   } else if (str.startsWith("s")) {
+//     return `${str} starts with s but not g`;
+//   } else if (str.endsWith("g")) {
+//     return `${str} end withs g but not start with s`;
+//   } else {
+//     return `${str} does not start with s and end with g char`;
+//   }
+// }
+
+// let str = prompt("enter your string");
+// console.log(checkStartEndSame(str));
+
+//Q.9    JavaScript Program to Replace All Occurrences of a String.          *********************
+
+// let str = "this is my code";
+
+// let res = str.replace("code", "pen");
+
+// console.log(res);
+
+//2nd type          *****************
+
+// function replaceAllOccurances(str, find, replace) {
+//   let result = "";
+//   let i = 0;
+//   while (i < str.length) {
+//     if (str.substring(i, i + find.length) === find) {
+//       result += replace;
+//       i += find.length;
+//     } else {
+//       result += str[i];
+//       i++;
+//     }
+//   }
+//   return result;
+// }
+
+// let str = prompt("Enter your string");
+// let find = prompt("Which substring or character do you want to replace?");
+// let replace = prompt(
+//   "With which substring or character do you want to replace it?"
+// );
+
+// let result = replaceAllOccurances(str, find, replace);
+// console.log(result);
+
+//Q.10   JavaScript Program to Create Multiline Strings.      ******************
+
+// let message =
+//   "this is a long message\n" +
+//   "that spans across multiple line\n" +
+//   "in the code";
+
+// console.log(message);
+
+//Q.  JavaScript Program to Format Numbers as Currency Strings.               ********************************
