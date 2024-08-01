@@ -184,3 +184,26 @@
 // console.log(message);
 
 //Q.  JavaScript Program to Format Numbers as Currency Strings.               ********************************
+
+// function formatAsCurrency(amount) {
+//   return amount.toLocaleString("en-US", { style: "currency", currency: "USD" });
+// }
+
+// let amount = parseInt(prompt("enter your amount"));
+// console.log(formatAsCurrency(amount));
+
+//Q.11   JavaScript Program to Generate Random String.               **********************
+
+// function genrateRandomString(length) {
+//   let char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+//   let res = "";
+//   for (let i = 0; i < length; i++) {
+//     let randomIndex = Math.floor(Math.random() * char.length);
+//     res += char[randomIndex];
+//   }
+//   return res;
+// }
+
+// console.log(genrateRandomString(5));
+
+//Q.11
