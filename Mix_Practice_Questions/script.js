@@ -191,3 +191,55 @@
 
 // let num = prompt("enter your number");
 // console.log(checkPostiveNegative(num));
+
+//Q.15  To Check number is even or odd.
+
+// function checkEvenOdd(num) {
+//   if (num % 2 == 0) {
+//     return "number is even";
+//   } else {
+//     return "number is odd";
+//   }
+// }
+
+// let num = prompt("enter your number");
+// console.log(checkEvenOdd(num));
+
+//Q.16  Rotating array from last one to 1st one.
+
+// function rotateArray(arr) {
+//   let newArr = [];
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     newArr += arr[i];
+//   }
+//   return newArr;
+// }
+
+// console.log(rotateArray([2, 4, 6, 8]));
+
+//Q.17 Write a program to print multiplication table of any number.
+
+// function mulTable(num) {
+//   for (let i = num; i <= num * 10; i += num) {
+//     console.log(i);
+//   }
+// }
+
+// let num = parseInt(prompt("enter your table number:"));
+// console.log(mulTable(num));
+
+//Q.18  sum of array of two numbers is 8.
+
+let arr = [1, 4, 5, 3, 2, 7, 9, 6, 8];
+
+let res = [];
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = i; j < arr.length; j++) {
+    if (arr[i] + arr[j] === 8) {
+      res.push([arr[i], arr[j]]);
+    }
+  }
+}
+
+console.log(res);
