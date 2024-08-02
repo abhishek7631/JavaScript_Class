@@ -112,4 +112,13 @@
 //   console.log("The key does not exist.");
 // }
 
-//Q.5    JavaScript Program to Clone a JS Object       ****************************8
+//Q.5    JavaScript Program to Clone a JS Object       ****************************
+
+let person = {
+  name: "abhishek",
+  age: 23,
+};
+
+let clone = person;
+
+console.log((clone.name = "rohan"));
