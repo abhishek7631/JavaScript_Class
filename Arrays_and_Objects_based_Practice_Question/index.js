@@ -138,14 +138,31 @@
 
 //Q.7    JavaScript Program to Merge Property of Two Objects        *************************
 
-let person = {
-  name: "abhishek",
-  age: 23,
-};
+// let person = {
+//   name: "abhishek",
+//   age: 23,
+// };
+
+// let student = {
+//   gender: "Male",
+// };
+
+// let mergeObject = { ...person, ...student };
+// console.log(mergeObject);
+
+//Q.8   JavaScript Program to Count the Number of Keys/Properties in an Object          *********************
 
 let student = {
+  name: "abhishek",
+  age: 23,
+  hobbies: ["reading", "games", "coding"],
   gender: "Male",
 };
 
-let mergeObject = { ...person, ...student };
-console.log(mergeObject);
+let count = 0;
+
+for (let key in student) {
+  count++;
+}
+
+console.log(count);
