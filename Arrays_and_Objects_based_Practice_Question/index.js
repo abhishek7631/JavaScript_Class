@@ -114,24 +114,38 @@
 
 //Q.5    JavaScript Program to Clone a JS Object       ****************************
 
+// let person = {
+//   name: "abhishek",
+//   age: 23,
+// };
+
+// let clone = person;
+
+// console.log((clone.name = "rohan"));
+
+//Q.6   JavaScript Program to Loop Through an Object            ************************
+
+// let student = {
+//   name: "abhishek",
+//   age: 23,
+//   hobbies: ["reading", "games", "coding"],
+// };
+
+// for (let key in student) {
+//   let value = student[key];
+//   console.log(key + " - " + value);
+// }
+
+//Q.7    JavaScript Program to Merge Property of Two Objects        *************************
+
 let person = {
   name: "abhishek",
   age: 23,
 };
 
-let clone = person;
-
-console.log((clone.name = "rohan"));
-
-//Q.6   JavaScript Program to Loop Through an Object            ************************
-
 let student = {
-  name: "abhishek",
-  age: 23,
-  hobbies: ["reading", "games", "coding"],
+  gender: "Male",
 };
 
-for (let key in student) {
-  let value = student[key];
-  console.log(key + " - " + value);
-}
+let mergeObject = { ...person, ...student };
+console.log(mergeObject);
