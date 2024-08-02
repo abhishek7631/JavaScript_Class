@@ -481,17 +481,50 @@
 // console.log(`after swapping a is : ${a}`);
 // console.log(`after swapping b is : ${b}`);
 
-let student = {
-  name: "abhishek",
-  class: 23,
-  age: 23,
-};
+// let student = {
+//   name: "abhishek",
+//   class: 23,
+//   age: 23,
+// };
 
-let num1 = [1, 2, 3, 4, 5];
-let num2 = [6, 7, 8, 9, 0];
+// let num1 = [1, 2, 3, 4, 5];
+// let num2 = [6, 7, 8, 9, 0];
 
-let res = num1.concat(num2);
-console.log(res);
+// let res = num1.concat(num2);
+// console.log(res);
+
+//Q. How can you create an object in JavaScript that counts the frequency of each character in a given string.
+
+// let a = "hello";
+
+// const obj = [];
+
+// for (let i = 0; i < a.length; i++) {
+//   let key = a[i];
+//   if (!obj[key]) {
+//     obj[key] = 0;
+//   }
+//   obj[key]++;
+// }
+
+// console.log(obj);
+
+//Q .
+
+function getmaxelement(arr) {
+  let obj = {};
+  arr.map((e) => {
+    if (obj.hasOwnPropert(e)) {
+      obj[e] = obj[e] + 1;
+    } else {
+      obj[e] = 1;
+    }
+  });
+  console.log(obj);
+}
+
+let arr = ["a", "b", "c", "d", "a"];
+getmaxelement(arr);
 
 //**********************     CLASS PRACTICE QUESTION    *****************************
 
