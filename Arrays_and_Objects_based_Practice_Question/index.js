@@ -122,3 +122,16 @@ let person = {
 let clone = person;
 
 console.log((clone.name = "rohan"));
+
+//Q.6   JavaScript Program to Loop Through an Object            ************************
+
+let student = {
+  name: "abhishek",
+  age: 23,
+  hobbies: ["reading", "games", "coding"],
+};
+
+for (let key in student) {
+  let value = student[key];
+  console.log(key + " - " + value);
+}
