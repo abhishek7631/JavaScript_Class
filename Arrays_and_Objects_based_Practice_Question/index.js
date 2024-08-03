@@ -187,6 +187,18 @@
 // let result = String(student);
 // console.log(result);
 
+//Q.11    JavaScript Program to Replace all Instances of a Character in a String         ****************************
+
+let string = "Learning JavaScript Program";
+
+let splitString = string.split("a");
+
+console.log(splitString);
+
+let result = splitString.join("A");
+
+console.log(result);
+
 //repeat string questions ************************
 
 //Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
