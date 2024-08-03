@@ -189,15 +189,31 @@
 
 //Q.11    JavaScript Program to Replace all Instances of a Character in a String         ****************************
 
-let string = "Learning JavaScript Program";
+// let string = "Learning JavaScript Program";
 
-let splitString = string.split("a");
+// let splitString = string.split("a");
 
-console.log(splitString);
+// console.log(splitString);
 
-let result = splitString.join("A");
+// let result = splitString.join("A");
 
-console.log(result);
+// console.log(result);
+
+//Q.12    JavaScript Program to Remove Specific Item From an Array                        ****************************
+
+function removeItemFromArray(arr, n) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== n) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+
+let arr = [1, 2, 3, 4, 5];
+
+console.log(removeItemFromArray(arr, 2));
 
 //repeat string questions ************************
 
