@@ -177,6 +177,16 @@
 // console.log((student.gender = "male"));
 // console.log(student);
 
+//Q.10     JavaScript Program to Convert Objects to Strings     ***************************
+
+// let student = {
+//   name: "abhishek",
+//   age: 23,
+// };
+
+// let result = String(student);
+// console.log(result);
+
 //repeat string questions ************************
 
 //Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
