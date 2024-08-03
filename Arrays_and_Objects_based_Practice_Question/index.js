@@ -167,6 +167,18 @@
 
 // console.log(count);
 
+//Q.9    JavaScript Program to Add Key/Value Pair to an Object      *************************
+
+// let student = {
+//   name: "abhishek",
+//   age: 23,
+// };
+
+// console.log((student.gender = "male"));
+// console.log(student);
+
+//repeat string questions ************************
+
 //Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
 
 // let str = "i love coding ";
@@ -174,3 +186,5 @@
 // let result = str.replaceAll("coding", "sleeping");
 
 // console.log(result);
+
+//Q.10   JavaScript Program to Create Multiline Strings               *****************************
