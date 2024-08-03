@@ -152,17 +152,25 @@
 
 //Q.8   JavaScript Program to Count the Number of Keys/Properties in an Object          *********************
 
-let student = {
-  name: "abhishek",
-  age: 23,
-  hobbies: ["reading", "games", "coding"],
-  gender: "Male",
-};
+// let student = {
+//   name: "abhishek",
+//   age: 23,
+//   hobbies: ["reading", "games", "coding"],
+//   gender: "Male",
+// };
 
-let count = 0;
+// let count = 0;
 
-for (let key in student) {
-  count++;
-}
+// for (let key in student) {
+//   count++;
+// }
 
-console.log(count);
+// console.log(count);
+
+//Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
+
+// let str = "i love coding ";
+
+// let result = str.replaceAll("coding", "sleeping");
+
+// console.log(result);
