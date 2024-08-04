@@ -281,23 +281,35 @@
 
 //Q.16    JavaScript Program to Check if An Object is An Array      **********************
 
-function checkObject(arr) {
-  let res = Array.isArray(arr);
-  if (res) {
-    console.log(`${arr} is an array`);
-  } else {
-    console.log(`${arr} is not an array`);
-  }
+// function checkObject(arr) {
+//   let res = Array.isArray(arr);
+//   if (res) {
+//     console.log(`${arr} is an array`);
+//   } else {
+//     console.log(`${arr} is not an array`);
+//   }
+// }
+
+// let arr = [1, 2, 3, 4];
+// // let arr = {
+// //   x: 2,
+// //   y: 3,
+// // };
+// checkObject(arr);
+
+// console.log(typeof arr);
+
+//Q.17   JavaScript Program to Empty an Array   ******************
+
+function emptyArr(arr) {
+  arr = [];
+  return arr;
 }
 
 let arr = [1, 2, 3, 4];
-// let arr = {
-//   x: 2,
-//   y: 3,
-// };
-checkObject(arr);
+console.log(arr);
 
-console.log(typeof arr);
+console.log(emptyArr(arr));
 
 //repeat string questions                 ************************
 
