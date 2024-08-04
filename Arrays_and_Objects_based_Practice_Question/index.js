@@ -228,6 +228,27 @@
 //   console.log("arr doest not contain a value");
 // }
 
+//Q.14    JavaScript Program to Insert Item in an Array                 ***********************
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let res = arr.push(2);
+// console.log(arr);
+
+//second method
+
+// function insertElement() {
+//   let arr = [1, 2, 3, 4, 5];
+//   let index = 3;
+
+//   let element = 8;
+
+//   arr.splice(index, 0, element);
+//   console.log(arr);
+// }
+
+// insertElement();
+
 //repeat string questions                 ************************
 
 //Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
