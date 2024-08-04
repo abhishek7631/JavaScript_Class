@@ -249,6 +249,36 @@
 
 // insertElement();
 
+//Q.15    JavaScript Program to Append an Object to an Array      **************************
+
+// function inserObject(arr, obj) {
+//   arr.push(obj);
+//   console.log(arr);
+// }
+
+// let arr = [1, 2, 3, 4];
+// let object = {
+//   x: 10,
+//   y: 5,
+// };
+
+// inserObject(arr, object);
+
+//using spread operator
+
+// function inserObject(arr, obj) {
+//   arr = [...arr, obj];
+//   console.log(arr);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// let obj = {
+//   x: 10,
+//   y: 2,
+// };
+
+// inserObject(arr, obj);
+
 //repeat string questions                 ************************
 
 //Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
