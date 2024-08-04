@@ -228,7 +228,7 @@
 //   console.log("arr doest not contain a value");
 // }
 
-//repeat string questions ************************
+//repeat string questions                 ************************
 
 //Q.9  JavaScript Program to Replace All Occurrences of a String      **********************
 
