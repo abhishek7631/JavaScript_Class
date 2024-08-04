@@ -201,19 +201,32 @@
 
 //Q.12    JavaScript Program to Remove Specific Item From an Array                        ****************************
 
-function removeItemFromArray(arr, n) {
-  let newArr = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] !== n) {
-      newArr.push(arr[i]);
-    }
-  }
-  return newArr;
-}
+// function removeItemFromArray(arr, n) {
+//   let newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== n) {
+//       newArr.push(arr[i]);
+//     }
+//   }
+//   return newArr;
+// }
 
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-console.log(removeItemFromArray(arr, 2));
+// console.log(removeItemFromArray(arr, 2));
+
+//Q.13  JavaScript Program to Check if An Array Contains a Specified Value     ****************************
+
+// let arr = ["you", "will", "learn", "javascript"];
+
+// // let hasValue = arr.includes("javascript");
+// let hasValue = arr.includes("Abhishek");
+
+// if (hasValue) {
+//   console.log("array contains a value");
+// } else {
+//   console.log("arr doest not contain a value");
+// }
 
 //repeat string questions ************************
 
