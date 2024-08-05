@@ -405,3 +405,37 @@
 //   return res;
 // }
 // console.log(replace(str));
+
+//Q.38  Write a function that extracts a substring from the 3rd character to the 7th character in a string.
+
+// let str = "abhsihek";
+// function extrcatString(str) {
+//   let res = str.slice(3, 8);
+//   return res;
+// }
+
+// console.log(extrcatString(str));
+// console.log(str);
+
+//Q.39  Write a function that splits a sentence into an array of words.
+
+// let str = "abhishek";
+// console.log(str);
+// function splitSentence(str) {
+//   let splited = str.split("");
+//   return splited;
+// }
+// console.log(splitSentence(str));
+
+//Q.40  Write a function that returns the first three characters of a string.
+
+// let str = "Abhishk";
+
+// function returnThreeChar(str) {
+//   let newStr = "";
+//   for (let i = 0; i < 3; i++) {
+//     newStr += str[i];
+//   }
+//   return newStr;
+// }
+// console.log(returnThreeChar(str));
