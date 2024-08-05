@@ -312,3 +312,30 @@
 // let arr2 = [4, 5, 6];
 // let res = arr1.concat(arr2);
 // console.log(res);
+
+//Q.29  Write a function that sorts an array of numbers in ascending order.
+
+// let arr = [2, 4, 0, 1, 7, 5, 6];
+
+// let sort = arr.sort((a, b) => a - b);
+// console.log(sort);
+
+//Q.30  Write a function that removes two elements from an array starting at index 2 and returns the modified array.
+
+// function removeElemet(arr) {
+//   let res = arr.splice(2, 2);
+//   return res;
+// }
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(removeElemet(arr));
+// console.log(arr);
+
+//Q.31  Write a function that returns a portion of an array from index 1 to index 4.
+
+// function removeElemet(arr) {
+//   let res = arr.slice(1, 5);
+//   return res;
+// }
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(removeElemet(arr));
+// console.log(arr);
