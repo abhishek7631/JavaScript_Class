@@ -368,9 +368,40 @@
 
 //Q.34 Write a function that returns the index of the first occurrence of a specified value in an array.
 
-function findIndex(arr, value) {
-  return arr.indexOf(value);
-}
+// function findIndex(arr, value) {
+//   return arr.indexOf(value);
+// }
 
-let arr = [1, 2, 3, 4, 5, 6, 7];
-console.log(findIndex(arr, 7));
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(findIndex(arr, 7));
+
+//Q.35  Write a function that returns the character at the 5th position in a string.
+
+// function charAtFifth(str) {
+//   let res = str.slice(5, 6);
+//   return res;
+// }
+
+// let str = "abhishek";
+// console.log(charAtFifth(str));
+
+//Q.36  Write a function that returns the Unicode value of the first character in a string.
+
+// let str = "A";
+
+// function uniCode(str) {
+//   let ascii = str.charCodeAt(0);
+//   return ascii;
+// }
+
+// console.log(uniCode(str));
+
+//Q.37  Write a function that replaces all occurrences of "apple" in a string with "orange".
+
+// let str = "apple";
+
+// function replace(str) {
+//   let res = str.replaceAll("apple", "orange");
+//   return res;
+// }
+// console.log(replace(str));
