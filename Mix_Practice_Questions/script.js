@@ -339,3 +339,38 @@
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 // console.log(removeElemet(arr));
 // console.log(arr);
+
+//Q.32  Write a function that reverses the order of elements in an array.
+
+// function reverseArr(arr) {
+//   let newArr = [];
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//     newArr.push(arr[i]);
+//   }
+//   return newArr;
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(reverseArr(arr));
+
+//Q.33  Write a function that checks if a specific value exists in an array.
+
+// function checkValue(arr, value) {
+//   if (arr.includes(value)) {
+//     return `this ${value} value is exist`;
+//   } else {
+//     return `this ${value} value not is exist`;
+//   }
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(checkValue(arr, 2));
+
+//Q.34 Write a function that returns the index of the first occurrence of a specified value in an array.
+
+function findIndex(arr, value) {
+  return arr.indexOf(value);
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7];
+console.log(findIndex(arr, 7));
