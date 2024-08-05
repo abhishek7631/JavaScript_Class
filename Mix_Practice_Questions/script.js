@@ -230,16 +230,54 @@
 
 //Q.18  sum of array of two numbers is 8.
 
-let arr = [1, 4, 5, 3, 2, 7, 9, 6, 8];
+// let arr = [1, 4, 5, 3, 2, 7, 9, 6, 8];
 
-let res = [];
+// let res = [];
 
-for (let i = 0; i < arr.length; i++) {
-  for (let j = i; j < arr.length; j++) {
-    if (arr[i] + arr[j] === 8) {
-      res.push([arr[i], arr[j]]);
-    }
-  }
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i; j < arr.length; j++) {
+//     if (arr[i] + arr[j] === 8) {
+//       res.push([arr[i], arr[j]]);
+//     }
+//   }
+// }
+
+// console.log(res);
+
+//test question    ***********************
+
+//Q.23  Write a function that removes the last element from an array and returns the modified array.
+
+// let arr = [1, 2, 3, 4, 5];
+
+// function removeLastEl(arr) {
+//   let res = arr.pop();
+//   return res;
+// }
+// console.log(arr);
+// console.log(removeLastEl(arr));
+// console.log(arr);
+
+//Q.24  Write a function that adds a new element to the end of an array and returns the updated array.
+
+// let arr = [1, 2, 3, 4, 5];
+// function addElemet(arr) {
+//   let res = arr.push(6);
+//   return res;
+// }
+
+// console.log(arr);
+// console.log(addElemet(arr));
+// console.log(arr);
+
+//Q.25  Write a function that removes the first element from an array and returns the modified array.
+
+let arr = [1, 2, 3, 4, 5];
+function removeElemet(arr) {
+  let res = arr.shift();
+  return res;
 }
 
-console.log(res);
+console.log(arr);
+console.log(removeElemet(arr));
+console.log(arr);
