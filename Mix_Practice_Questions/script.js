@@ -246,6 +246,23 @@
 
 //test question    ***********************
 
+//Q.21  Write a function that converts an array of numbers into a single string, with each number separated by a comma.
+
+// let arr = [1, 2, 3, 4];
+// function arrayToString(arr) {
+//   let joined = arr.join(",");
+//   return joined;
+// }
+// console.log(arrayToString(arr));
+
+//Q.22 Write a function that joins all elements of an array into a string with a hyphen (-) as the separator.
+// let arr = [1, 2, 3, 4];
+// function arrayToString(arr) {
+//   let joined = arr.join("-");
+//   return joined;
+// }
+// console.log(arrayToString(arr));
+
 //Q.23  Write a function that removes the last element from an array and returns the modified array.
 
 // let arr = [1, 2, 3, 4, 5];
