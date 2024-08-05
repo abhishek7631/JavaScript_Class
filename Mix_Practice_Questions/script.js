@@ -272,12 +272,43 @@
 
 //Q.25  Write a function that removes the first element from an array and returns the modified array.
 
-let arr = [1, 2, 3, 4, 5];
-function removeElemet(arr) {
-  let res = arr.shift();
-  return res;
-}
+// let arr = [1, 2, 3, 4, 5];
+// function removeElemet(arr) {
+//   let res = arr.shift();
+//   return res;
+// }
 
-console.log(arr);
-console.log(removeElemet(arr));
-console.log(arr);
+// console.log(arr);
+// console.log(removeElemet(arr));
+// console.log(arr);
+
+//Q.26  Write a function that adds a new element to the beginning of an array and returns the updated array.
+
+// let arr = [1, 2, 3, 4, 5];
+// function addElemet(arr) {
+//   let res = arr.unshift(0);
+//   return res;
+// }
+
+// console.log(arr);
+// console.log(addElemet(arr));
+// console.log(arr);
+
+//Q.27  Write a function that deletes the third element of an array, keeping the array length unchanged.
+
+// function deleteThirdElement(arr) {
+//   if (arr.length >= 3) {
+//     arr[2] = undefined;
+//   }
+//   return arr;
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(deleteThirdElement(arr));
+
+//Q.28  Write a function that concatenates two arrays into a single array.
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// let res = arr1.concat(arr2);
+// console.log(res);
