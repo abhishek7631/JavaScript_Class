@@ -16,3 +16,5 @@ console.dir(document.querySelector(".oldImg"));
 
 console.dir(document.querySelector("div a"));
 console.dir(document.querySelectorAll("div a"));
+
+//this is my code
