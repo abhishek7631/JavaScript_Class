@@ -33,6 +33,14 @@
 //   links[i].style.color = "red";
 // }
 
+//classList     ************
+
+// let img = document.querySelector("img");
+// console.log(img.classList);
+
+let head = document.querySelector("h1");
+console.log(head.classList.add("abc"));
+
 //class practice      *******************************************************
 
 // let para = document.getElementById("para");
