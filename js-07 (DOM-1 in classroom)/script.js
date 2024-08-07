@@ -17,12 +17,16 @@
 // console.dir(document.querySelector("div a"));
 // console.dir(document.querySelectorAll("div a"));
 
-let para = document.querySelector("p");
-console.dir(para);
-console.dir(para.innerHTML);
-console.dir(para.innerText);
-console.dir(para.textContent);
+// let para = document.querySelector("p");
+// console.dir(para);
+// console.dir(para.innerHTML);
+// console.dir(para.innerText);
+// console.dir(para.textContent);
 
-//this is my code
+//class practice      *******************************************************
 
-//this is javascript dom selecter.
+let para = document.getElementById("para");
+console.log(para);
+function changePara() {
+  para.innerText = "this changed para";
+}
