@@ -5,20 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Change color 🏔</title>
     <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      body {
-        border: 10px solid rgb(232, 15, 15);
-        height: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
       button {
+        margin-left: 500px;
+        margin-top: 200px;
         height: 6rem;
         width: 6rem;
         border-radius: 100%;
@@ -27,28 +16,24 @@
         border: none;
         box-shadow: 0px 0px 0px 1px black;
       }
-      button:hover {
-        background-color: rgb(11, 168, 168);
-      }
     </style>
   </head>
   <body>
-    <button onclick="ChangeKaro()">Change Me 😎</button>
+    <button onclick="changeColor()">Generate Random color</button>
 
     <script>
-      const Back = document.body;
+      let bgColor = document.body;
 
-      function RandomColor() {
-        return Math.floor(Math.random() * 255);
+      function randomColor() {
+        let rgbColor = Math.floor(Math.random() * 256);
+        return rgbColor;
       }
 
-      function ChangeKaro() {
-        const color1 = RandomColor();
-        const color2 = RandomColor();
-        const color3 = RandomColor();
-        console.log(color1, color2, color3);
-
-        Back.style.backgroundColor = `rgb(${color1},${color2},${color3})`;
+      function changeColor() {
+        let col1 = randomColor();
+        let col2 = randomColor();
+        let col3 = randomColor();
+        bgColor.style.backgroundColor = `rgb(${col1},${col2},${col3})`;
       }
     </script>
   </body>
