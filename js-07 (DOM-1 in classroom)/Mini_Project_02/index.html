@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change color 🏔</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        border: 10px solid rgb(232, 15, 15);
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        height: 6rem;
+        width: 6rem;
+        border-radius: 100%;
+        cursor: pointer;
+        background-color: aqua;
+        border: none;
+        box-shadow: 0px 0px 0px 1px black;
+      }
+      button:hover {
+        background-color: rgb(11, 168, 168);
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="ChangeKaro()">Change Me 😎</button>
+
+    <script>
+      const Back = document.body;
+
+      function RandomColor() {
+        return Math.floor(Math.random() * 255);
+      }
+
+      function ChangeKaro() {
+        const color1 = RandomColor();
+        const color2 = RandomColor();
+        const color3 = RandomColor();
+        console.log(color1, color2, color3);
+
+        Back.style.backgroundColor = `rgb(${color1},${color2},${color3})`;
+      }
+    </script>
+  </body>
+</html>
