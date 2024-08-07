@@ -8,7 +8,7 @@
 // let para = document.getElementsByTagName("p")[1];
 // console.log(para);
 
-//query selectors   *************
+// query selectors   *************
 
 // console.dir(document.querySelector("p"));
 // console.dir(document.querySelector("#description"));
@@ -23,10 +23,20 @@
 // console.dir(para.innerText);
 // console.dir(para.textContent);
 
+//manipulating attributes  ********************
+
+// let img = document.querySelector("img");
+// console.log(img.getAttribute("id"));
+
+// let links = document.querySelectorAll(".box a");
+// for (let i = 0; i < links.length; i++) {
+//   links[i].style.color = "red";
+// }
+
 //class practice      *******************************************************
 
-let para = document.getElementById("para");
-console.log(para);
-function changePara() {
-  para.innerText = "this changed para";
-}
+// let para = document.getElementById("para");
+// console.log(para);
+// function changePara() {
+//   para.innerText = "this changed para";
+// }
