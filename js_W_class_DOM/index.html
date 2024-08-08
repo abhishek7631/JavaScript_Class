@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,6 +21,31 @@
       boxClass.addEventListener("click", () => {
         boxClass.style.backgroundColor = "blue";
       });
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Button</title>
+    <style>
+      .dark_mode {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="toggle()">Dark_Mode</button>
+
+    <script>
+      let toggle = () => {
+        let el = document.body;
+        el.classList.toggle("dark_mode");
+      };
     </script>
   </body>
 </html>
