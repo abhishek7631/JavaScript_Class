@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+
+    <style>
+      .todo {
+        max-height: 600px;
+        width: 400px;
+        background-color: rgb(22, 118, 129);
+        margin: auto;
+        margin-top: 50px;
+        padding-bottom: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        padding-top: 15px;
+      }
+      input {
+        margin-left: 100px;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+      }
+      button {
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        margin-left: 5px;
+        margin: 3px;
+      }
+
+      ol {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="todo">
+      <h1>ToDo App</h1>
+      <input type="text" placeholder="Enter Your Task...." id="name" />
+      <button id="btn" onclick="toDo()">Add</button>
+      <ol id="task"></ol>
+      <p id="para"></p>
+    </div>
+
+    <script>
+      function toDo() {
+        const errorElement = document.getElementById("para");
+        errorElement.innerHTML = "";
+
+        const name = document.getElementById("name").value;
+
+        if (name == 0) {
+          errorElement.innerHTML = "please add something...";
+        } else {
+          const task = document.getElementById("task");
+          const li = document.createElement("li");
+          const button = document.createElement("button");
+
+          button.innerHTML = "Delete";
+          li.textContent = name;
+          li.appendChild(button);
+          task.appendChild(li);
+
+          button.addEventListener("click", () => {
+            li.remove();
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
