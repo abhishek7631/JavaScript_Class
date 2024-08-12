@@ -301,15 +301,15 @@
 
 //Q.17   JavaScript Program to Empty an Array   ******************
 
-function emptyArr(arr) {
-  arr = [];
-  return arr;
-}
+// function emptyArr(arr) {
+//   arr = [];
+//   return arr;
+// }
 
-let arr = [1, 2, 3, 4];
-console.log(arr);
+// let arr = [1, 2, 3, 4];
+// console.log(arr);
 
-console.log(emptyArr(arr));
+// console.log(emptyArr(arr));
 
 //repeat string questions                 ************************
 
@@ -322,3 +322,11 @@ console.log(emptyArr(arr));
 // console.log(result);
 
 //Q.10   JavaScript Program to Create Multiline Strings               *****************************
+
+//not uses code(github commit)    *************************
+
+let str = "i love coding ";
+
+let result = str.replaceAll("coding", "sleeping");
+
+console.log(result);
