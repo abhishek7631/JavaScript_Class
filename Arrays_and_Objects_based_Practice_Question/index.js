@@ -331,6 +331,12 @@
 
 // console.log(result);
 
+// let str = "i love coding ";
+
+// let result = str.replaceAll("coding", "sleeping");
+
+// console.log(result);
+
 let str = "i love coding ";
 
 let result = str.replaceAll("coding", "sleeping");
