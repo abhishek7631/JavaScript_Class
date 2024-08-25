@@ -1,0 +1,57 @@
+<!-- Q...add the following to the container using only js and the DOM methods.
+1) a <p> with red text that says "hey i'm red"
+2) an <h3> withe blue text that says "i'm a blue h3"
+3) a <div> with a black border and pink background color and the following elements inside of it:
+    * another <h1> that says "i'm in a div"
+    * <p> that says "ME TOO!" -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Questiont</title>
+
+    <style>
+      .blue {
+        color: blue;
+      }
+
+      .box {
+        border: 1px solid black;
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let body = document.querySelector("body");
+      let newP = document.createElement("p");
+      newP.innerText = "Hey i'm red";
+      newP.style.color = "red";
+
+      body.append(newP);
+
+      let h3 = document.createElement("h3");
+      h3.innerText = "Hey i'm Blue h3";
+
+      h3.classList.add("blue");
+
+      body.append(h3);
+
+      let div = document.createElement("div");
+      body.append(div);
+      div.classList.add("box");
+
+      let h1 = document.createElement("h1");
+      h1.innerText = "i'm in a div";
+
+      div.append(h1);
+
+      let p = document.createElement("p");
+      p.innerText = "ME TOO!";
+
+      div.append(p);
+    </script>
+  </body>
+</html>
