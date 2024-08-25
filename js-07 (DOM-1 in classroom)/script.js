@@ -38,8 +38,12 @@
 // let img = document.querySelector("img");
 // console.log(img.classList);
 
-let head = document.querySelector("h1");
-console.log(head.classList.add("abc"));
+// let head = document.querySelector("h1");
+// console.log(head.classList.add("abc"));
+
+// let h4 = document.querySelector("h4");
+
+// console.log(h4.parentElement);
 
 //class practice      *******************************************************
 
