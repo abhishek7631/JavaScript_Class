@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Questions</title>
+    <style>
+      .color {
+        background-color: green;
+      }
+
+      body {
+        height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let btn = document.createElement("button");
+      let body = document.querySelector("body");
+
+      let inp = document.createElement("input");
+      body.append(inp);
+      inp.setAttribute("placeholder", "enter your name");
+
+      let h2 = document.createElement("h2");
+      body.prepend(h2);
+
+      inp.addEventListener("input", function () {
+        inp.value = inp.value.replace(/[^a-zA-Z\s]/g, "");
+        console.log(inp.value);
+        h2.innerText = inp.value;
+      });
+
+      body.append(btn);
+      btn.innerText = "Submit";
+
+      btn.addEventListener("mouseout", function () {
+        console.log("mouseout");
+      });
+
+      btn.addEventListener("keypress", function (event) {
+        console.log("key was pressed", event.key);
+      });
+    </script>
+  </body>
+</html>
