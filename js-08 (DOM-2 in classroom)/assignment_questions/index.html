@@ -42,6 +42,19 @@
       btn.addEventListener("keypress", function (event) {
         console.log("key was pressed", event.key);
       });
+
+      window.addEventListener("load", function () {
+        console.log("page fully loaded");
+      });
+
+      window.addEventListener("scroll", function () {
+        console.log("User scrolled the page");
+      });
+
+      btn.addEventListener("click", function () {
+        btn.classList.add("color");
+        // btn.style.backgroundColor = "green";
+      });
     </script>
   </body>
 </html>
