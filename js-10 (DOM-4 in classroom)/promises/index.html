@@ -58,7 +58,33 @@
         });
       }
 
-      console.log(saveToDb("apna college"));
+      // console.log(saveToDb("apna college"));
+
+      // saveToDb("apna college")
+      //   .then(() => {
+      //     console.log("promise resolved");
+      //   })
+      //   .catch(() => {
+      //     console.log("promise rejected");
+      //   });
+
+      //promise chaining   *************
+
+      saveToDb("apna college")
+        .then(() => {
+          console.log("data1 saved");
+          return saveToDb("helloworld");
+        })
+        .then(() => {
+          console.log("data2 saved");
+          return saveToDb("abhishek");
+        })
+        .then(() => {
+          console.log("data3 saved");
+        })
+        .catch(() => {
+          console.log("promise rejected");
+        });
     </script>
   </body>
 </html>
