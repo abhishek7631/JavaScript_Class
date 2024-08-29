@@ -70,20 +70,42 @@
 
       //promise chaining   *************
 
+      // saveToDb("apna college")
+      //   .then(() => {
+      //     console.log("data1 saved");
+      //     return saveToDb("helloworld");
+      //   })
+      //   .then(() => {
+      //     console.log("data2 saved");
+      //     return saveToDb("abhishek");
+      //   })
+      //   .then(() => {
+      //     console.log("data3 saved");
+      //   })
+      //   .catch(() => {
+      //     console.log("promise rejected");
+      //   });
+
+      //results and errors in promises  ************
+
       saveToDb("apna college")
-        .then(() => {
+        .then((result) => {
           console.log("data1 saved");
+          console.log(result);
           return saveToDb("helloworld");
         })
-        .then(() => {
+        .then((result) => {
           console.log("data2 saved");
+          console.log(result);
           return saveToDb("abhishek");
         })
-        .then(() => {
+        .then((result) => {
           console.log("data3 saved");
+          console.log(result);
         })
-        .catch(() => {
+        .catch((error) => {
           console.log("promise rejected");
+          console.log(error);
         });
     </script>
   </body>
