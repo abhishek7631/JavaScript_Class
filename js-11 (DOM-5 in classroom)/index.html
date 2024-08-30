@@ -3,9 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>js-11 (DOM-5 in classroom)</title>
+    <title>ja-11 (DOM-5 in classroom)</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      //async function   *************
+      async function greet() {
+        return "hello";
+      }
+      greet()
+        .then((result) => {
+          console.log("promise was resolved");
+          console.log("result was :", result);
+        })
+        .catch((err) => {
+          console.log("promise was rejected");
+          console.log("error was :", err);
+        });
+    </script>
   </body>
 </html>
