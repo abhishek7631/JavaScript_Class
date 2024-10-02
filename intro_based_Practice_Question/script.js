@@ -174,11 +174,3 @@ const obj = {
 console.log(obj);
 
 //extra code           ***********
-
-const obj2 = {
-  name: " abhishek",
-  rollNo: "3053",
-  class: "D",
-};
-
-console.log(obj);
