@@ -182,3 +182,11 @@ const obj2 = {
 };
 
 console.log(obj);
+
+const obj4 = {
+  name: " abhishek",
+  rollNo: "3053",
+  class: "D",
+};
+
+console.log(obj);
