@@ -205,5 +205,3 @@
 // }
 
 // console.log(genrateRandomString(5));
-
-//Q.11
