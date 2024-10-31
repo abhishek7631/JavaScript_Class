@@ -218,3 +218,5 @@ object.method(callback, 1, 2);
 //extra code
 
 //extra code
+
+//extra code
