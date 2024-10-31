@@ -214,5 +214,3 @@ const object = {
 };
 
 object.method(callback, 1, 2);
-
-//extra code
