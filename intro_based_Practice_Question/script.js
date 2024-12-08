@@ -172,6 +172,3 @@ const obj = {
 };
 
 console.log(obj);
-
-//extra code
-//extra code
