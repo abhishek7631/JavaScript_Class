@@ -456,5 +456,3 @@
 //   return newStr;
 // }
 // console.log(returnThreeChar(str));
-
-//extra code
